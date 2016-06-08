@@ -45,12 +45,26 @@
 }
 
 .main{
-	border:1px solid blue;
 	position:relative;
 	height:1000px;
     width:960px;
     margin:0 auto;
 }
+
+.item_red{
+	margin:0 10px 10px 0;
+}
+
+.item_yellow{
+	margin:0 10px 10px 0;
+}
+
+.item_green{
+	margin-bottom:10px;
+}
+
+
+
 
 .footer{
     border:1px solid green;
