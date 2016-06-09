@@ -33,12 +33,12 @@
     padding-left: 24px;
 }
 .site_nav {
-	background: #eee;
+	background-image: url(../image/header_nav_bg_img.jpg);
 	border-radius: 10px;
     float: right;
-    height: 40px;
+    height: 42px;
     line-height: 40px;
-    margin: -50px 25px 36px 0;
+    margin: -50px 25px 34px 0;
     width: 752px;
 }
 .site_nav li {
@@ -54,7 +54,6 @@
 .main {
 	height: 1000px;
 	margin: 0 auto;
-	position: relative;
     width: 960px;
 }
 .item_red {
@@ -67,13 +66,14 @@
 	margin-bottom: 10px;
 }
 .top_btn {
+	float: right;
 	margin: 182px 70px 0 0;
 }
 /*
  *  03.footer
  */
 .footer {
-    background: #000;
+    background-image: url(../image/footer_bg_img.jpg);
     bottom: 0;
     height: 300px;
     left: 0;
@@ -98,7 +98,11 @@
 	padding-bottom: 9px;
 }
 .footer_nav ul > li:first-child {
+	font-weight: bold;
 	padding-bottom: 12px;
+}
+.footer_icon {
+	float: right;
 }
 .footer p {
 	color: #fff;
