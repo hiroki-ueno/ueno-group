@@ -1,58 +1,83 @@
 @charset "UTF-8";
 /*
+ *  00.clearfix
  *  01.header
- *  02.main
- *  03.footer
+ *  02.top_image
+ *  03.main
+ *  04.online_shop_btn
+ *  05.footer
 */ 
 a {
 	text-decoration: none;
 }
 /*
+ *  00.clearfix
+ */
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+.cf:after {
+    clear: both;
+}
+.cf {
+    zoom: 1;
+}
+/*
  *  01.header
 */
 .header {
-	height: 284px;
-	margin: 20px auto 16px;
-    position: relative;
+	margin: 11px auto 0;
     width: 960px;
 }
 .logo {
-	margin: 13px 0 0 24px;
+	margin: 10px 0 0 20px;
+}
+.groval_nav {
+	float: right;
+	margin-right: 24px;
 }
 .help_nav {
 	float: right;
-	margin: 3px 35px 10px 0;
+	margin-right: 10px;
+}
+.help_nav li {
+	float: left;
+	margin-left: 22px;
 }
 .help_nav li > a {
-	color: rgb(27,140,216);
 	font-family: 'Hiragino Maru Gothic Pro';
-	font-size: 9px;
-    padding-left: 17px;
+	font-size: 10px;
+	letter-spacing: 1px;
 }
 .site_nav {
 	background-image: url(../image/header_nav_bg_img.jpg);
-	border-radius: 10px;
-    float: right;
-    height: 42px;
-    line-height: 40px;
-    margin: -50px 22px 38px 0;
-    width: 752px;
+	background-repeat: repeat-x;
+	border-radius: 5px;
+	margin-top: 24px;
+	width: 776px;
 }
 .site_nav li > a {
-	color: rgb(60,60,60);
-	font-family: 'Hiragino Maru Gothic Pro';
-	font-size: 13px;
-	padding-left: 43px;
-}
-.header ul > li {
-	display: inline;
+	display: block;
+    float: left;
+    font-family: 'Hiragino Maru Gothic Pro';
+    font-size: 13px;
+    letter-spacing: 1px;
+    padding: 14px 0 14px 50px;
 }
 /*
- *  02.main
+ *  02.top_image
+*/
+.top_image {
+	margin: 30px auto 0;
+	width: 960px;
+}
+/*
+ *  03.main
  */
 .main {
-	height: 1000px;
-	margin: 0 auto;
+	margin: 16px auto 0;
     width: 960px;
 }
 .main ul > li {
@@ -64,58 +89,62 @@ a {
 .item_yellow {
 	margin-right: 10px;
 }
+/*
+ *  04.online_shop_btn
+ */
 .online_shop_btn {
-	margin-top: 10px;
-}
-.top_btn {
-	float: right;
-	margin: 182px 70px 0 0;
+	margin: 13px auto 0;
+	width: 960px;
 }
 /*
- *  03.footer
+ *  05.footer
  */
 .footer {
     background-image: url(../image/footer_bg_img.jpg);
-    bottom: 0;
-    height: 300px;
-    left: 0;
-    position: relative;
+    background-repeat: repeat-x;
+    margin-top: 220px;
     width: 100%;
 }
-.footer_nav {
-	height: 180px;
-	margin: 0 auto;
-	position: relative;
-	top: 27px;
-	width: 934px;
+.top_btn {
+	float: right;
+	margin: -35px 305px 0 0;
+	width: 101px;
 }
-.footer ul {
+.footer_nav {
+	width:960px;
+	margin:27px auto 70px;
+}
+.nav_box {
+	float: left;
+	margin-left: 30px;
+	width: 846px;
+}
+.nav_box ul {
 	float: left;
 	margin-right: 48px;
 }
-.footer_nav ul > li {
-	font-size: 12px;
+.nav_box ul > li {
 	letter-spacing: 2px;
-	padding-bottom: 9px;
+    padding-bottom: 8px;
 }
-
-.footer_nav ul > li > a {
-	color: rgb(251,252,254);
-	font-family: 'Hiragino Maru Gothic Pro';
+.nav_box ul > li >a {
+	color: #fff;
+	font-size: 11px;
 }
-.footer_nav ul > li:first-child {
-	color: rgb(251,252,254);
-	font-family: 'Hiragino Maru Gothic Pro';
+.nav_box ul > li:first-child {
+	color:#fff;
 	font-weight: bold;
-	padding-bottom: 12px;
+	font-size: 12px;
+	padding-bottom: 11px;
 }
 .footer_icon {
-	float: right;
+	float: left;
+	height: 68px;
+	width: 69px;
 }
-.footer p {
-	color: rgb(251,252,254);
-	font-family: 'Hiragino Maru Gothic Pro';
+.copyright {
+	color: #fff;
 	font-size: 12px;
-	margin-top: 89px;
+	margin-bottom: 5px;
 	text-align: center;
 }
