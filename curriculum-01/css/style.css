@@ -47,6 +47,7 @@ a {
 	margin-left: 22px;
 }
 .help_nav li > a {
+	color: #1d8ad7;
 	font-family: 'Hiragino Maru Gothic Pro';
 	font-size: 10px;
 	letter-spacing: 1px;
@@ -59,6 +60,7 @@ a {
 	width: 776px;
 }
 .site_nav li > a {
+	color: #3e3e3e;
 	display: block;
     float: left;
     font-family: 'Hiragino Maru Gothic Pro';
@@ -93,8 +95,40 @@ a {
  *  04.online_shop_btn
  */
 .online_shop_btn {
+	background-color: #114bac;
 	margin: 13px auto 0;
 	width: 960px;
+}
+.btn_inner {
+	width: 376px;
+	margin: 0 auto;
+	padding-bottom: 18px;
+}
+.btn_inner h1 {
+	color: #fff;
+	font-family: 'Hiragino Maru Gothic Pro'; 
+	font-size: 18px;
+	letter-spacing: 2px;
+	padding: 18px 0 21px;
+	text-align: center;
+}
+.btn_icon {
+	background-color: #000;
+	width: 340px;
+	margin: 0 auto;
+}
+.btn_icon ul >li >a {
+	display: block;
+	float: left;
+}
+.cart_image {
+	padding: 14px 0 14px 64px;
+}
+.btn_text {
+	color: #fff;
+	font-family: 'Hiragino Maru Gothic Pro';
+	letter-spacing: 1px;
+	padding: 22px 44px 24px 11px;
 }
 /*
  *  05.footer
@@ -102,30 +136,30 @@ a {
 .footer {
     background-image: url(../image/footer_bg_img.jpg);
     background-repeat: repeat-x;
-    margin-top: 220px;
+    margin-top: 225px;
     width: 100%;
 }
 .top_btn {
 	float: right;
-	margin: -35px 305px 0 0;
+	margin: -38px 305px 0 0;
 	width: 101px;
 }
 .footer_nav {
 	width:960px;
-	margin:27px auto 70px;
+	margin:25px auto 70px;
 }
 .nav_box {
 	float: left;
 	margin-left: 30px;
-	width: 846px;
+	width: 844px;
 }
 .nav_box ul {
 	float: left;
-	margin-right: 48px;
+	margin-right: 45px;
 }
 .nav_box ul > li {
 	letter-spacing: 2px;
-    padding-bottom: 8px;
+    padding-bottom: 5px;
 }
 .nav_box ul > li >a {
 	color: #fff;
