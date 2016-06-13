@@ -119,7 +119,7 @@ a {
 .btn_inner {
 	width: 376px;
 	margin: 0 auto;
-	padding-bottom: 18px;
+	padding-bottom: 20px;
 }
 .btn_inner h1 {
 	color: #fff;
@@ -139,13 +139,13 @@ a {
 	float: left;
 }
 .cart_image {
-	padding: 14px 0 14px 64px;
+	padding: 14px 0 12px 64px;
 }
 .btn_text {
 	color: #fff;
 	font-family: 'Hiragino Maru Gothic Pro';
 	letter-spacing: 1px;
-	padding: 22px 44px 24px 11px;
+	padding: 22px 42px 22px 13px;
 }
 /*
  *  05.footer
