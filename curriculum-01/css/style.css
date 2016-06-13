@@ -12,7 +12,7 @@ a {
 }
 /*
  *  00.clearfix
- */
+*/
 .cf:before,
 .cf:after {
     content: " ";
@@ -94,7 +94,7 @@ a {
 }
 /*
  *  03.main
- */
+*/
 .main {
 	margin: 16px auto 0;
     width: 960px;
@@ -110,7 +110,7 @@ a {
 }
 /*
  *  04.online_shop_btn
- */
+*/
 .online_shop_btn {
 	background-color: #114bac;
 	margin: 13px auto 0;
@@ -149,7 +149,7 @@ a {
 }
 /*
  *  05.footer
- */
+*/
 .footer {
     background-image: url(../image/footer_bg_img.jpg);
     background-repeat: repeat-x;
@@ -162,7 +162,7 @@ a {
 	width: 101px;
 }
 .footer_nav {
-	width:960px;
+	width: 960px;
 	margin:27px auto 70px;
 }
 .nav_box {
@@ -172,7 +172,6 @@ a {
 }
 .nav_box ul {
 	float: left;
-/*	margin-right: 45px;*/
 }
 .nav_box ul > li {
 	letter-spacing: 2px;
@@ -183,24 +182,24 @@ a {
 	font-size: 11px;
 }
 .nav_box ul > li:first-child {
-	color:#fff;
+	color: #fff;
 	font-weight: bold;
 	font-size: 12px;
 	padding-bottom: 10px;
 }
-.nav_box_list1{
+.nav_box_list1 {
     margin-right: 42px;
 }
-.nav_box_list2{
+.nav_box_list2 {
     margin-right: 44px;
 }
-.nav_box_list3{
+.nav_box_list3 {
     margin-right: 51px;
 }
-.nav_box_list4{
+.nav_box_list4 {
     margin-right: 43px;
 }
-.nav_box_list5{
+.nav_box_list5 {
     margin-right: 66px;
 }
 .footer_icon {
@@ -213,5 +212,6 @@ a {
 	font-size: 12px;
 	letter-spacing: 1px;
 	margin-bottom: 5px;
+	padding: 11px 0 24px;
 	text-align: center;
 }
