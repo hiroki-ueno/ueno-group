@@ -1,0 +1,367 @@
+@charset "UTF-8";
+/*
+ *00.clearfix
+ *01.header
+ *02.main_wrap
+ *02_01.main_wrap_top
+ *02_02.main_contents
+*/
+a {
+    text-decoration: none;
+}
+/*
+ *00.clearfix
+*/
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+.cf:after {
+    clear: both;
+}
+.cf {
+    zoom: 1;
+}
+/*
+ *01.header
+*/
+.header {
+    margin: 20px auto 0;
+    width: 1190px;
+}
+.logo {
+    float: left;
+    padding-left: 5px;
+}
+.groval_nav {
+    float: left;
+    padding: 41px 0 0 19px;
+}
+.groval_nav li {
+    float: left;
+    font-family: 'Hiragino Maru Gothic Pro';
+    padding-right: 16px;
+}
+.groval_nav li > a {
+    color: #3e3e3e;
+    display: block;
+}
+.header_serch {
+    margin: -6px 0 0 6px;
+}
+.sns_link {
+    float: left;
+    margin: 17px 18px 0 0;
+}
+.sns_link a > img {
+    margin: -2px 0 0 17px;
+}
+.sns_link p {
+    margin-top: 2px;
+}
+.sns_link p > a {
+    color: #3e3e3e;
+}
+.net_shop {
+    float: left;
+    margin-top: 13px;
+}
+.net_shop a > img {
+    margin: -2px 0 0 16px;
+}
+.net_shop p {
+    margin-top: 2px;
+}
+.net_shop p > a {
+    color: #3e3e3e;
+}
+/*
+ *02.main_wrap
+*/
+.main_wrap {
+    margin: 25px auto 0;
+    width: 900px;
+}
+/*
+ *02_01.main_wrap_top
+*/
+.main_wrap_top {
+    width: 900px;
+}
+.key_visual {
+    margin: 0 auto;
+    width: 520px;
+}
+.dgfruit_nav {
+    float: left;
+}
+.dgfruit_nav ul > li {
+    margin-bottom: -2px;
+}
+.avocado_nav {
+    float: left;
+}
+.avocado_nav ul > li {
+    margin-bottom: -2px;
+}
+.what_salad {
+    background-image: url(../image/what_salad_fruit.jpg);
+    background-repeat: no-repeat;
+    margin-top: 19px;
+}
+.what_salad p {
+    color: #808080;
+    text-align: center;
+}
+.what_salad_text1 {
+    padding-top: 87px;
+}
+.what_salad_text2 {
+    padding: 12px 0 38px;
+}
+/*
+ *02_02.main_contents
+*/
+.main_contents {
+    margin: 180px auto 0;
+    width: 900px;
+}
+.dgfruit_recipi {
+    background-image: url(../image/recipe_dragonfruit_bg_body.jpg);
+    background-repeat: repeat-y;
+    border-top: 10px solid #da5284;
+    border-bottom: 10px solid #da5284;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    position: relative;
+    width: 802px;
+}
+.dgfruit {
+    left: -38px;
+    position: absolute;
+    top: -171px;
+}
+.dgfruit_recipi_title {
+    border-bottom: 2px solid #da5284;
+    margin: 0 auto ;
+    width: 668px;
+}
+.recipi_name {
+    float: right;
+    padding: 56px 0 55px;
+}
+.dgfruit_recipi1 {
+    border-bottom: 2px solid #da5284;
+    margin: 20px auto 0;
+    padding-bottom: 30px;
+    width: 668px;
+}
+.dgfruit_recipi1 h1 {
+    color: #da5284;
+    font-size: 20px;
+    padding-bottom: 22px;
+    text-align: center;
+}
+.dgfruit_recipi1_top {
+    width: 668px;
+}
+.dgfruit_recipi1_material {
+    background-color: #ffd9e7;
+    float: left;
+    height: 283px;/*←必ず消す！*/
+    width: 329px;
+}
+.dgfruit_recipi1_top img {
+    float: left;
+    margin-left: 10px;
+}
+.dgfruit_recipi1_bottom {
+    background-color: #ffd9e7;
+    height: 238px;
+    margin-top: 10px; 
+    width: 668px;
+}
+.dgfruit_recipi2 {
+    border-bottom: 2px solid #da5284;
+    margin: 20px auto 0;
+    padding-bottom: 30px;
+    width: 668px;
+}
+.dgfruit_recipi2 h1 {
+    color: #da5284;
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding-bottom: 22px;
+    text-align: center;
+}
+.dgfruit_recipi2_top {
+    width: 668px;
+}
+.dgfruit_recipi2_material {
+    background-color: #ffd9e7;
+    float: left;
+    height: 283px;/*←必ず消す！*/
+    margin-left: 10px;
+    width: 329px;
+}
+.dgfruit_recipi2_top img {
+    float: left;
+}
+.dgfruit_recipi2_bottom {
+    background-color: #ffd9e7;
+    height: 238px;
+    margin-top: 10px; 
+    width: 668px;
+}
+.dgfruit_recipi3 {
+    margin: 20px auto 0;
+    width: 668px;
+}
+.dgfruit_recipi3 h1 {
+    color: #da5284;
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding-bottom: 22px;
+    text-align: center;
+}
+.dgfruit_recipi3_top {
+    width: 668px;
+}
+.dgfruit_recipi3_material {
+    background-color: #ffd9e7;
+    float: left;
+    height: 283px;/*←必ず消す！*/
+    width: 329px;
+}
+.dgfruit_recipi3_top img {
+    float: left;
+    margin-left: 10px;
+}
+.dgfruit_recipi3_bottom {
+    background-color: #ffd9e7;
+    height: 238px;
+    margin-top: 10px; 
+    width: 668px;
+}
+
+
+
+
+.avocado_recipi {
+    background-image: url(../image/recipe_avocado_bg_body.jpg);
+    background-repeat: repeat-y;
+    border-top: 10px solid #008743;
+    border-bottom: 10px solid #008743;
+    margin: 180px auto 0;
+    padding-bottom: 40px;
+    position: relative;
+    width: 802px;
+}
+.avocado {
+    left: -50px;
+    position: absolute;
+    top: -112px;
+}
+.avocado_recipi_title {
+    border-bottom: 2px solid #008743;
+    margin: 0 auto ;
+    width: 668px;
+}
+.recipi_name {
+    float: right;
+    padding: 56px 0 55px;
+}
+.avocado_recipi1 {
+    border-bottom: 2px solid #008743;
+    margin: 20px auto 0;
+    padding-bottom: 30px;
+    width: 668px;
+}
+.avocado_recipi1 h1 {
+    color: #008743;
+    font-size: 20px;
+    padding-bottom: 22px;
+    text-align: center;
+}
+.avocado_recipi1_top {
+    width: 668px;
+}
+.avocado_recipi1_material {
+    background-color: #d2fee9;
+    float: left;
+    height: 283px;/*←必ず消す！*/
+    width: 329px;
+}
+.avocado_recipi1_top img {
+    float: left;
+    margin-left: 10px;
+}
+.avocado_recipi1_bottom {
+    background-color: #d2fee9;
+    height: 238px;
+    margin-top: 10px; 
+    width: 668px;
+}
+.avocado_recipi2 {
+    border-bottom: 2px solid #008743;
+    margin: 20px auto 0;
+    padding-bottom: 30px;
+    width: 668px;
+}
+.avocado_recipi2 h1 {
+    color: #008743;
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding-bottom: 22px;
+    text-align: center;
+}
+.avocado_recipi2_top {
+    width: 668px;
+}
+.avocado_recipi2_material {
+    background-color: #d2fee9;
+    float: left;
+    height: 283px;/*←必ず消す！*/
+    margin-left: 10px;
+    width: 329px;
+}
+.avocado_recipi2_top img {
+    float: left;
+}
+.avocado_recipi2_bottom {
+    background-color: #d2fee9;
+    height: 238px;
+    margin-top: 10px; 
+    width: 668px;
+}
+.avocado_recipi3 {
+    margin: 20px auto 0;
+    width: 668px;
+}
+.avocado_recipi3 h1 {
+    color: #008743;
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding-bottom: 22px;
+    text-align: center;
+}
+.avocado_recipi3_top {
+    width: 668px;
+}
+.avocado_recipi3_material {
+    background-color: #d2fee9;
+    float: left;
+    height: 283px;/*←必ず消す！*/
+    width: 329px;
+}
+.avocado_recipi3_top img {
+    float: left;
+    margin-left: 10px;
+}
+.avocado_recipi3_bottom {
+    background-color: #d2fee9;
+    height: 238px;
+    margin-top: 10px; 
+    width: 668px;
+}
