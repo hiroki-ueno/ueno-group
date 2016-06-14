@@ -8,7 +8,7 @@
  *  05.footer
 */ 
 a {
-	text-decoration: none;
+    text-decoration: none;
 }
 /*
  *  00.clearfix
@@ -28,40 +28,40 @@ a {
  *  01.header
 */
 .header {
-	margin: 11px auto 0;
+    margin: 11px auto 0;
     width: 960px;
 }
 .logo {
-	margin: 10px 0 0 20px;
+    margin: 10px 0 0 20px;
 }
 .groval_nav {
-	float: right;
-	margin-right: 24px;
+    float: right;
+    margin-right: 24px;
 }
 .help_nav {
-	float: right;
-	margin-right: 10px;
+    float: right;
+    margin-right: 10px;
 }
 .help_nav li {
-	float: left;
-	margin-left: 22px;
+    float: left;
+    margin-left: 22px;
 }
 .help_nav li > a {
-	color: #1d8ad7;
-	font-family: 'Hiragino Maru Gothic Pro';
-	font-size: 10px;
-	letter-spacing: 1px;
+    color: #1d8ad7;
+    font-family: 'Hiragino Maru Gothic Pro';
+    font-size: 10px;
+    letter-spacing: 1px;
 }
 .site_nav {
-	background-image: url(../image/header_nav_bg_img.jpg);
-	background-repeat: repeat-x;
-	border-radius: 5px;
-	margin-top: 24px;
-	width: 776px;
+    background-image: url(../image/header_nav_bg_img.jpg);
+    background-repeat: repeat-x;
+    border-radius: 5px;
+    margin-top: 24px;
+    width: 776px;
 }
 .site_nav li > a {
-	color: #3e3e3e;
-	display: block;
+    color: #3e3e3e;
+    display: block;
     float: left;
     font-family: 'Hiragino Maru Gothic Pro';
     font-size: 13px;
@@ -89,63 +89,60 @@ a {
  *  02.top_image
 */
 .top_image {
-	margin: 30px auto 0;
-	width: 960px;
+    margin: 30px auto 0;
+    width: 960px;
 }
 /*
  *  03.main
 */
 .main {
-	margin: 16px auto 0;
+    margin: 16px auto 0;
     width: 960px;
 }
 .main ul > li {
-	display: inline;
+    display: inline;
 }
 .item_red {
-	margin-right: 10px;
+    margin-right: 10px;
 }
 .item_yellow {
-	margin-right: 10px;
+    margin-right: 10px;
 }
 /*
  *  04.online_shop_btn
 */
 .online_shop_btn {
-	background-color: #114bac;
-	margin: 13px auto 0;
-	width: 960px;
+    background-color: #114bac;
+    margin: 13px auto 0;
+    width: 960px;
 }
 .btn_inner {
-	width: 376px;
-	margin: 0 auto;
-	padding-bottom: 20px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    width: 376px;
 }
 .btn_inner h1 {
-	color: #fff;
-	font-family: 'Hiragino Maru Gothic Pro'; 
-	font-size: 18px;
-	letter-spacing: 2px;
-	padding: 18px 0 21px;
-	text-align: center;
+    color: #fff;
+    font-family: 'Hiragino Maru Gothic Pro'; 
+    font-size: 18px;
+    letter-spacing: 2px;
+    padding: 18px 0 21px;
+    text-align: center;
 }
 .btn_icon {
-	background-color: #000;
-	width: 340px;
-	margin: 0 auto;
+    background-color: #000;
+    background-image: url(../image/dole_deli_icon_03.jpg);
+    background-position: 65px 14px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    width: 340px;
 }
-.btn_icon ul >li >a {
-	display: block;
-	float: left;
-}
-.cart_image {
-	padding: 14px 0 12px 64px;
-}
-.btn_text {
-	color: #fff;
-	font-family: 'Hiragino Maru Gothic Pro';
-	letter-spacing: 1px;
-	padding: 22px 42px 22px 13px;
+.btn_icon a {
+    color: #fff;
+    display: block;
+    font-family: 'Hiragino Maru Gothic Pro';
+    letter-spacing: 1px;
+    padding: 22px 0 22px 111px;
 }
 /*
  *  05.footer
@@ -157,35 +154,35 @@ a {
     width: 100%;
 }
 .top_btn {
-	float: right;
-	margin: -38px 305px 0 0;
-	width: 101px;
+    float: right;
+    margin: -38px 305px 0 0;
+    width: 101px;
 }
 .footer_nav {
-	width: 960px;
-	margin:27px auto 70px;
+    width: 960px;
+    margin:27px auto 70px;
 }
 .nav_box {
-	float: left;
-	margin-left: 30px;
-	width: 844px;
+    float: left;
+    margin-left: 30px;
+    width: 844px;
 }
 .nav_box ul {
-	float: left;
+    float: left;
 }
 .nav_box ul > li {
-	letter-spacing: 2px;
+    letter-spacing: 2px;
     padding-bottom: 4px;
 }
 .nav_box ul > li >a {
-	color: #fff;
-	font-size: 11px;
+    color: #fff;
+    font-size: 11px;
 }
 .nav_box ul > li:first-child {
-	color: #fff;
-	font-weight: bold;
-	font-size: 12px;
-	padding-bottom: 10px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 12px;
+    padding-bottom: 10px;
 }
 .nav_box_list1 {
     margin-right: 42px;
@@ -203,17 +200,17 @@ a {
     margin-right: 66px;
 }
 .footer_icon {
-	float: left;
-	height: 68px;
-	width: 69px;
+    float: left;
+    height: 68px;
+    width: 69px;
 }
 .copyright {
-	color: #fff;
-	font-size: 12px;
-	letter-spacing: 1px;
-	margin-bottom: 5px;
-	padding: 11px 0 24px;
-	text-align: center;
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    padding: 11px 0 24px;
+    text-align: center;
 }
 .copyright span {
     font-family: monospace;
