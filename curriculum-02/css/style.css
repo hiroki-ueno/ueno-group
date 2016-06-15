@@ -5,6 +5,7 @@
  *02.main_wrap
  *02_01.main_wrap_top
  *02_02.main_contents
+ *03.footer
 */
 a {
     text-decoration: none;
@@ -364,4 +365,93 @@ a {
     height: 238px;
     margin-top: 10px; 
     width: 668px;
+}
+/*
+ *03.footer
+*/
+.footer_wrap {
+    bottom: 0;
+    margin-top: 230px;
+    width: 100%;
+}
+.footer_link_box ul > li {
+    float: left;
+    width: 25%;
+}
+.fb a {
+    background-color: #4967ab;
+    display: block;
+}
+.fb a > img {
+    padding: 15px 0 12px 95px;
+}
+.tw a {
+    background-color: #55acef;
+    display: block;
+}
+.tw a > img {
+    padding: 15px 0 12px 95px;
+}
+.yt a {
+    background-color: #e22e26;
+    display: block;
+}
+.yt a > img {
+    padding: 15px 0 12px 95px;
+}
+.dfc a {
+    background-color: #ffa117;
+    display: block;
+}
+.dfc a > img {
+    padding: 15px 0 12px 95px;
+}
+.footer_nav_wrap {
+    position: relative;
+    width: 100%;
+}
+.footer_bg {
+    width: 100%;
+}
+.footer_logo {
+    height: 176px;
+    position: absolute;
+    right: 58px;
+    top: 36px;
+    width: 142px;
+}
+.footer_nav_box {
+    bottom: 0;
+    background-color: rgba(255,255,255,0.8);
+    position: absolute;
+    width: 100%;
+}
+.footer_nav {
+    float: left;
+    padding: 18px 0 20px 44px;
+}
+.footer_nav li {
+    float: left;
+    font-size: 14px;
+    margin-left: 15px;
+}
+.footer_nav li > a {
+    color: #000;
+}
+.footer_nav1 {
+    border-right: 1px solid #000;
+    padding-right: 16px;
+}
+.footer_nav2 {
+    border-right: 1px solid #000;
+    padding-right: 15px;
+}
+.footer_nav3 {
+    border-right: 1px solid #000;
+    padding-right: 15px;
+}
+.copyright {
+    float: left;
+    font-size: 9px;
+    padding: 20px 0 0 65px;
 }
