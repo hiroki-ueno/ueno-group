@@ -5,10 +5,18 @@
  *02.main_wrap
  *02_01.main_wrap_top
  *02_02.main_contents
+ *02_02_01.dgfruit_recipe
+ *02_02_02.avocado_recipe
  *03.footer
 */
 a {
     text-decoration: none;
+}
+th,td {
+    font-size: 12px;
+    font-weight: normal;
+    padding-bottom: 6px;
+    text-align: left;
 }
 /*
  *00.clearfix
@@ -128,6 +136,9 @@ a {
     margin: 180px auto 0;
     width: 900px;
 }
+/*
+ *02_02_01.dgfruit_recipe
+*/
 .dgfruit_recipi {
     background-image: url(../image/recipe_dragonfruit_bg_body.jpg);
     background-repeat: repeat-y;
@@ -170,8 +181,31 @@ a {
 .dgfruit_recipi1_material {
     background-color: #ffd9e7;
     float: left;
-    height: 283px;/*←必ず消す！*/
     width: 329px;
+}
+/*この部分編集中*/
+.material_top_text_dg {
+    background-color: #f28eb2;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 12px;
+    margin: 20px 0 13px 20px;
+    padding: 4px 0;
+    text-align: center;
+    width: 92px;
+}
+.dgfruit_material_box1 {
+    margin: 0 0 29px 19px;
+}
+.dgfruit_material_box1 tr > th,
+.dgfruit_material_box1 tr > td {
+    color: #f28eb2;
+}
+.dgfruit_material_box1 tr > th {
+    padding-right: 29px;
+}
+.table_bottom_26px {
+    padding-bottom: 27px;
 }
 .dgfruit_recipi1_top img {
     float: left;
@@ -179,10 +213,31 @@ a {
 }
 .dgfruit_recipi1_bottom {
     background-color: #ffd9e7;
-    height: 238px;
-    margin-top: 10px; 
+    margin-top: 10px;
     width: 668px;
 }
+.method_box_dg {
+    margin: 0 auto;
+    padding: 20px 0 23px;
+    width: 628px;
+}
+.method_title_dg {
+    background-color: #f28eb2;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 12px;
+    padding: 4px 0;
+    text-align: center;
+    width: 63px;
+}
+.cooking_method_dg {
+    font-size: 12px;
+}
+.cooking_method_dg li {
+    color: #f28eb2;
+    padding-top: 17px;
+}
+/*ここまで*/
 .dgfruit_recipi2 {
     border-bottom: 2px solid #da5284;
     margin: 20px auto 0;
@@ -202,16 +257,24 @@ a {
 .dgfruit_recipi2_material {
     background-color: #ffd9e7;
     float: left;
-    height: 283px;/*←必ず消す！*/
     margin-left: 10px;
     width: 329px;
+}
+.dgfruit_material_box2 {
+    margin: 0 0 29px 19px;
+}
+.dgfruit_material_box2 tr > th,
+.dgfruit_material_box2 tr > td {
+    color: #f28eb2;
+}
+.dgfruit_material_box2 tr > th {
+    padding-right: 10px;
 }
 .dgfruit_recipi2_top img {
     float: left;
 }
 .dgfruit_recipi2_bottom {
     background-color: #ffd9e7;
-    height: 238px;
     margin-top: 10px; 
     width: 668px;
 }
@@ -232,8 +295,17 @@ a {
 .dgfruit_recipi3_material {
     background-color: #ffd9e7;
     float: left;
-    height: 283px;/*←必ず消す！*/
     width: 329px;
+}
+.dgfruit_material_box3 {
+    margin: 0 0 122px 19px;
+}
+.dgfruit_material_box3 tr > th,
+.dgfruit_material_box3 tr > td {
+    color: #f28eb2;
+}
+.dgfruit_material_box3 tr > th {
+    padding-right: 29px;
 }
 .dgfruit_recipi3_top img {
     float: left;
@@ -241,14 +313,12 @@ a {
 }
 .dgfruit_recipi3_bottom {
     background-color: #ffd9e7;
-    height: 238px;
     margin-top: 10px; 
     width: 668px;
 }
-
-
-
-
+/*
+ *02_02_02.avocado_recipe
+*/
 .avocado_recipi {
     background-image: url(../image/recipe_avocado_bg_body.jpg);
     background-repeat: repeat-y;
@@ -291,19 +361,71 @@ a {
 .avocado_recipi1_material {
     background-color: #d2fee9;
     float: left;
-    height: 283px;/*←必ず消す！*/
     width: 329px;
 }
+
+.material_top_text_ac {
+    background-color: #008743;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 12px;
+    margin: 20px 0 13px 20px;
+    padding: 4px 0;
+    text-align: center;
+    width: 92px;
+}
+.avocado_material_box1 {
+    margin: 0 0 119px 19px;
+}
+.avocado_material_box1 tr > th,
+.avocado_material_box1 tr > td {
+    color: #008743;
+}
+.avocado_material_box1 tr > th {
+    padding-right: 29px;
+}
+.table_bottom_26px {
+    padding-bottom: 27px;
+}
+.avocado_recipi1_top img {
+    float: left;
+    margin-left: 10px;
+}
+
+
+
 .avocado_recipi1_top img {
     float: left;
     margin-left: 10px;
 }
 .avocado_recipi1_bottom {
     background-color: #d2fee9;
-    height: 238px;
     margin-top: 10px; 
     width: 668px;
 }
+.method_box_ac {
+    margin: 0 auto;
+    padding: 20px 0 40px;
+    width: 628px;
+}
+.method_title_ac {
+    background-color: #008743;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 12px;
+    padding: 4px 0;
+    text-align: center;
+    width: 63px;
+}
+.cooking_method_ac {
+    font-size: 12px;
+}
+.cooking_method_ac li {
+    color: #008743;
+    padding-top: 17px;
+}
+
+
 .avocado_recipi2 {
     border-bottom: 2px solid #008743;
     margin: 20px auto 0;
@@ -323,16 +445,26 @@ a {
 .avocado_recipi2_material {
     background-color: #d2fee9;
     float: left;
-    height: 283px;/*←必ず消す！*/
     margin-left: 10px;
     width: 329px;
 }
+.avocado_material_box2 {
+    margin: 0 0 83px 19px;
+}
+.avocado_material_box2 tr > th,
+.avocado_material_box2 tr > td {
+    color: #008743;
+}
+.avocado_material_box2 tr > th {
+    padding-right: 29px;
+}
+
+
 .avocado_recipi2_top img {
     float: left;
 }
 .avocado_recipi2_bottom {
     background-color: #d2fee9;
-    height: 238px;
     margin-top: 10px; 
     width: 668px;
 }
@@ -353,8 +485,23 @@ a {
 .avocado_recipi3_material {
     background-color: #d2fee9;
     float: left;
-    height: 283px;/*←必ず消す！*/
     width: 329px;
+}
+.avocado_recipi2_material {
+    background-color: #d2fee9;
+    float: left;
+    margin-left: 10px;
+    width: 329px;
+}
+.avocado_material_box3 {
+    margin: 0 0 122px 19px;
+}
+.avocado_material_box3 tr > th,
+.avocado_material_box3 tr > td {
+    color: #008743;
+}
+.avocado_material_box3 tr > th {
+    padding-right: 29px;
 }
 .avocado_recipi3_top img {
     float: left;
