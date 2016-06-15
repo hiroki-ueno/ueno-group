@@ -8,6 +8,7 @@
  *02_02_01.dgfruit_recipe
  *02_02_02.avocado_recipe
  *03.footer
+ *04.top_btn
 */
 a {
     text-decoration: none;
@@ -50,6 +51,7 @@ th,td {
 .groval_nav li {
     float: left;
     font-family: 'Hiragino Maru Gothic Pro';
+    font-weight: bold;
     padding-right: 16px;
 }
 .groval_nav li > a {
@@ -183,7 +185,6 @@ th,td {
     float: left;
     width: 329px;
 }
-/*この部分編集中*/
 .material_top_text_dg {
     background-color: #f28eb2;
     border-radius: 30px;
@@ -202,7 +203,7 @@ th,td {
     color: #f28eb2;
 }
 .dgfruit_material_box1 tr > th {
-    padding-right: 29px;
+    padding-right: 31px;
 }
 .table_bottom_26px {
     padding-bottom: 27px;
@@ -237,7 +238,6 @@ th,td {
     color: #f28eb2;
     padding-top: 17px;
 }
-/*ここまで*/
 .dgfruit_recipi2 {
     border-bottom: 2px solid #da5284;
     margin: 20px auto 0;
@@ -363,7 +363,6 @@ th,td {
     float: left;
     width: 329px;
 }
-
 .material_top_text_ac {
     background-color: #008743;
     border-radius: 30px;
@@ -387,13 +386,6 @@ th,td {
 .table_bottom_26px {
     padding-bottom: 27px;
 }
-.avocado_recipi1_top img {
-    float: left;
-    margin-left: 10px;
-}
-
-
-
 .avocado_recipi1_top img {
     float: left;
     margin-left: 10px;
@@ -424,8 +416,6 @@ th,td {
     color: #008743;
     padding-top: 17px;
 }
-
-
 .avocado_recipi2 {
     border-bottom: 2px solid #008743;
     margin: 20px auto 0;
@@ -458,8 +448,6 @@ th,td {
 .avocado_material_box2 tr > th {
     padding-right: 29px;
 }
-
-
 .avocado_recipi2_top img {
     float: left;
 }
@@ -556,6 +544,7 @@ th,td {
 .footer_nav_wrap {
     position: relative;
     width: 100%;
+    z-index: 1;
 }
 .footer_bg {
     width: 100%;
@@ -583,22 +572,32 @@ th,td {
     margin-left: 15px;
 }
 .footer_nav li > a {
-    color: #000;
+    color: #404141;
 }
 .footer_nav1 {
-    border-right: 1px solid #000;
+    border-right: 1px solid #404141;
     padding-right: 16px;
 }
 .footer_nav2 {
-    border-right: 1px solid #000;
+    border-right: 1px solid #404141;
     padding-right: 15px;
 }
 .footer_nav3 {
-    border-right: 1px solid #000;
+    border-right: 1px solid #404141;
     padding-right: 15px;
 }
 .copyright {
+    color: #404141;
     float: left;
     font-size: 9px;
     padding: 20px 0 0 65px;
+}
+/*
+ *04.top_btn
+*/
+.top_btn {
+    bottom: 28px;
+    position: fixed;
+    right: 70px;
+    z-index: 0;
 }
