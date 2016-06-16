@@ -48,7 +48,7 @@ a {
 }
 .help_nav li > a {
     color: #1d8ad7;
-    font-family: 'Hiragino Maru Gothic Pro';
+    font-family: 'Hiragino Kaku Gothic W3';
     font-size: 10px;
     letter-spacing: 1px;
 }
@@ -173,6 +173,7 @@ a {
     float: left;
 }
 .nav_box ul > li {
+    font-family: 'Hiragino Maru Gothic Pro';
     letter-spacing: 2px;
     padding-bottom: 4px;
 }
