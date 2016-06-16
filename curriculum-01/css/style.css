@@ -28,7 +28,7 @@ a {
  *  01.header
 */
 .header {
-    margin: 11px auto 0;
+    margin: 11px auto 30px;
     width: 960px;
 }
 .logo {
@@ -59,10 +59,12 @@ a {
     margin-top: 24px;
     width: 776px;
 }
+.site_nav li {
+    float: left;
+}
 .site_nav li > a {
     color: #3e3e3e;
     display: block;
-    float: left;
     font-family: 'Hiragino Maru Gothic Pro';
     font-size: 13px;
     letter-spacing: 1px;
@@ -89,31 +91,31 @@ a {
  *  02.top_image
 */
 .top_image {
-    margin: 30px auto 0;
+    margin: 0 auto 16px;
     width: 960px;
 }
 /*
  *  03.main
 */
 .main {
-    margin: 16px auto 0;
+    margin: 0 auto 14px;
     width: 960px;
 }
 .main ul > li {
-    display: inline;
+    float: left;
 }
 .item_red {
-    margin-right: 10px;
+    margin-right: 14px;
 }
 .item_yellow {
-    margin-right: 10px;
+    margin-right: 16px;
 }
 /*
  *  04.online_shop_btn
 */
 .online_shop_btn {
     background-color: #114bac;
-    margin: 13px auto 0;
+    margin: 0 auto;
     width: 960px;
 }
 .btn_inner {
@@ -150,7 +152,7 @@ a {
 .footer {
     background-image: url(../image/footer_bg_img.jpg);
     background-repeat: repeat-x;
-    margin-top: 225px;
+    margin-top: 224px;
     width: 100%;
 }
 .top_btn {
