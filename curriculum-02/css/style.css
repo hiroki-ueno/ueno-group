@@ -518,30 +518,34 @@ th,td {
 .fb a {
     background-color: #4967ab;
     display: block;
+    text-align: center;
 }
 .fb a > img {
-    padding: 15px 0 12px 95px;
+    padding: 15px 0 12px;
 }
 .tw a {
     background-color: #55acef;
     display: block;
+    text-align: center;
 }
 .tw a > img {
-    padding: 15px 0 12px 95px;
+    padding: 15px 0 12px;
 }
 .yt a {
     background-color: #e22e26;
     display: block;
+    text-align: center;
 }
 .yt a > img {
-    padding: 15px 0 12px 95px;
+    padding: 15px 0 12px;
 }
 .dfc a {
     background-color: #ffa117;
     display: block;
+    text-align: center;
 }
 .dfc a > img {
-    padding: 15px 0 12px 95px;
+    padding: 15px 0 12px;
 }
 .footer_nav_wrap {
     position: relative;
@@ -552,10 +556,12 @@ th,td {
     width: 100%;
 }
 .footer_logo {
-    height: 176px;
     position: absolute;
     right: 58px;
     top: 36px;
+}
+.footer_logo img {
+    height: 176px;
     width: 142px;
 }
 .footer_nav_box {
