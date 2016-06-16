@@ -45,9 +45,9 @@ a {
 }
 .groval_nav li {
     float: left;
-    font-family: 'Hiragino Maru Gothic Pro';
+    font-family: 'Hiragino Kaku Gothic W3' 'Hiragino Maru Gothic Pro';
     font-weight: bold;
-    padding-right: 16px;
+    padding-right: 15px;
 }
 .groval_nav li > a {
     color: #3e3e3e;
@@ -57,11 +57,11 @@ a {
     text-decoration: underline;
 }
 .header_serch {
-    margin: -6px 0 0 6px;
+    margin: -6px 0 0 12px;
 }
 .sns_link {
     float: left;
-    margin: 17px 18px 0 0;
+    margin: 17px 18px 0 2px;
 }
 .sns_link a {
     display: block;
@@ -75,6 +75,7 @@ a {
 .sns_link p > a {
     color: #3e3e3e;
     display: block;
+    font-family: 'Hiragino Kaku Gothic W3';
 }
 .sns_link p > a:hover {
     text-decoration: underline;
