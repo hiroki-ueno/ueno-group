@@ -13,12 +13,6 @@
 a {
     text-decoration: none;
 }
-th,td {
-    font-size: 12px;
-    font-weight: normal;
-    padding-bottom: 6px;
-    text-align: left;
-}
 /*
  *00.clearfix
 */
@@ -41,6 +35,7 @@ th,td {
     width: 1190px;
 }
 .logo {
+    display: block;
     float: left;
     padding-left: 5px;
 }
@@ -58,12 +53,18 @@ th,td {
     color: #3e3e3e;
     display: block;
 }
+.groval_nav li > a:hover {
+    text-decoration: underline;
+}
 .header_serch {
     margin: -6px 0 0 6px;
 }
 .sns_link {
     float: left;
     margin: 17px 18px 0 0;
+}
+.sns_link a {
+    display: block;
 }
 .sns_link a > img {
     margin: -2px 0 0 17px;
@@ -73,10 +74,17 @@ th,td {
 }
 .sns_link p > a {
     color: #3e3e3e;
+    display: block;
+}
+.sns_link p > a:hover {
+    text-decoration: underline;
 }
 .net_shop {
     float: left;
     margin-top: 13px;
+}
+.net_shop a {
+    display: block;
 }
 .net_shop a > img {
     margin: -2px 0 0 16px;
@@ -86,6 +94,10 @@ th,td {
 }
 .net_shop p > a {
     color: #3e3e3e;
+    display: block;
+}
+.net_shop p > a:hover {
+    text-decoration: underline;
 }
 /*
  *02.main_wrap
@@ -107,6 +119,9 @@ th,td {
 }
 .recipe_nav {
     margin-bottom: 19px;
+}
+.display_block {
+    display: block;
 }
 .dgfruit_nav {
     float: left;
@@ -141,6 +156,60 @@ th,td {
     margin: 0 auto;
     width: 900px;
 }
+/*///////////////////////////
+ *repeat_style_container
+///////////////////////////*/
+.dgts th,.dgts td {
+    color: #f28eb2;
+    font-size: 12px;
+    font-weight: normal;
+    padding-bottom: 6px;
+    text-align: left;
+}
+.dgbg {
+    background-color: #ffd9e7;
+    float: left;
+    width: 329px;
+}
+.acbg {
+    background-color: #d2fee9;
+    float: left;
+    width: 329px;
+}
+.acts th,.acts td {
+    color: #008743;
+    font-size: 12px;
+    font-weight: normal;
+    padding-bottom: 6px;
+    text-align: left;
+}
+.space_bottom th {
+    padding-bottom: 27px;
+}
+.dgtoptx {
+    background-color: #f28eb2;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 12px;
+    padding: 4px 0;
+    text-align: center;
+}
+.actoptx {
+    background-color: #008743;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 12px;
+    padding: 4px 0;
+    text-align: center;
+}
+.dgfruit_recipi_bottom {
+    background-color: #ffd9e7;
+    width: 668px;
+}
+.avocado_recipi_bottom {
+    background-color: #d2fee9; 
+    width: 668px;
+}
 /*
  *02_02_01.dgfruit_recipe
 */
@@ -151,7 +220,6 @@ th,td {
     border-bottom: 10px solid #da5284;
     margin: 0 auto 180px;
     padding-bottom: 40px;
-/*    position: relative;*/
     width: 802px;
 }
 .dgfruit_recipi_title {
@@ -186,40 +254,20 @@ th,td {
     width: 668px;
 }
 .dgfruit_recipi1_material {
-    background-color: #ffd9e7;
-    float: left;
     margin-right: 10px;
-    width: 329px;
 }
 .material_top_text_dg {
-    background-color: #f28eb2;
-    border-radius: 30px;
-    color: #fff;
-    font-size: 12px;
     margin: 20px 0 13px 20px;
-    padding: 4px 0;
-    text-align: center;
     width: 92px;
 }
 .dgfruit_material_box1 {
     margin: 0 0 29px 19px;
 }
-.dgfruit_material_box1 tr > th,
-.dgfruit_material_box1 tr > td {
-    color: #f28eb2;
-}
 .dgfruit_material_box1 tr > th {
     padding-right: 31px;
 }
-.table_bottom_26px {
-    padding-bottom: 27px;
-}
 .dgfruit_recipi1_top img {
     float: left;
-}
-.dgfruit_recipi1_bottom {
-    background-color: #ffd9e7;
-    width: 668px;
 }
 .method_box_dg {
     margin: 0 auto;
@@ -227,12 +275,7 @@ th,td {
     width: 628px;
 }
 .method_title_dg {
-    background-color: #f28eb2;
-    border-radius: 30px;
-    color: #fff;
-    font-size: 12px;
     padding: 4px 0;
-    text-align: center;
     width: 63px;
 }
 .cooking_method_dg {
@@ -259,17 +302,8 @@ th,td {
     margin-bottom: 10px;
     width: 668px;
 }
-.dgfruit_recipi2_material {
-    background-color: #ffd9e7;
-    float: left;
-    width: 329px;
-}
 .dgfruit_material_box2 {
     margin: 0 0 29px 19px;
-}
-.dgfruit_material_box2 tr > th,
-.dgfruit_material_box2 tr > td {
-    color: #f28eb2;
 }
 .dgfruit_material_box2 tr > th {
     padding-right: 10px;
@@ -277,10 +311,6 @@ th,td {
 .dgfruit_recipi2_top img {
     float: left;
     margin-right: 10px;
-}
-.dgfruit_recipi2_bottom {
-    background-color: #ffd9e7; 
-    width: 668px;
 }
 .dgfruit_recipi3 {
     margin: 0 auto;
@@ -298,27 +328,16 @@ th,td {
     width: 668px;
 }
 .dgfruit_recipi3_material {
-    background-color: #ffd9e7;
-    float: left;
     margin-right: 10px;
-    width: 329px;
 }
 .dgfruit_material_box3 {
     margin: 0 0 122px 19px;
-}
-.dgfruit_material_box3 tr > th,
-.dgfruit_material_box3 tr > td {
-    color: #f28eb2;
 }
 .dgfruit_material_box3 tr > th {
     padding-right: 29px;
 }
 .dgfruit_recipi3_top img {
     float: left;
-}
-.dgfruit_recipi3_bottom {
-    background-color: #ffd9e7;
-    width: 668px;
 }
 /*
  *02_02_02.avocado_recipe
@@ -364,40 +383,20 @@ th,td {
     width: 668px;
 }
 .avocado_recipi1_material {
-    background-color: #d2fee9;
-    float: left;
     margin-right: 10px;
-    width: 329px;
 }
 .material_top_text_ac {
-    background-color: #008743;
-    border-radius: 30px;
-    color: #fff;
-    font-size: 12px;
     margin: 20px 0 13px 20px;
-    padding: 4px 0;
-    text-align: center;
     width: 92px;
 }
 .avocado_material_box1 {
     margin: 0 0 119px 19px;
 }
-.avocado_material_box1 tr > th,
-.avocado_material_box1 tr > td {
-    color: #008743;
-}
 .avocado_material_box1 tr > th {
     padding-right: 29px;
 }
-.table_bottom_26px {
-    padding-bottom: 27px;
-}
 .avocado_recipi1_top img {
     float: left;
-}
-.avocado_recipi1_bottom {
-    background-color: #d2fee9; 
-    width: 668px;
 }
 .method_box_ac {
     margin: 0 auto;
@@ -405,12 +404,6 @@ th,td {
     width: 628px;
 }
 .method_title_ac {
-    background-color: #008743;
-    border-radius: 30px;
-    color: #fff;
-    font-size: 12px;
-    padding: 4px 0;
-    text-align: center;
     width: 63px;
 }
 .cooking_method_ac {
@@ -437,27 +430,15 @@ th,td {
     margin-bottom: 10px;
     width: 668px;
 }
-.avocado_recipi2_material {
-    background-color: #d2fee9;
-    float: left;
-    width: 329px;
-}
 .avocado_material_box2 {
     margin: 0 0 83px 19px;
-}
-.avocado_material_box2 tr > th,
-.avocado_material_box2 tr > td {
-    color: #008743;
 }
 .avocado_material_box2 tr > th {
     padding-right: 29px;
 }
 .avocado_recipi2_top img {
     float: left;
-}
-.avocado_recipi2_bottom {
-    background-color: #d2fee9;
-    width: 668px;
+    margin-right: 10px;
 }
 .avocado_recipi3 {
     margin: 20px auto 0;
@@ -475,34 +456,16 @@ th,td {
     width: 668px;
 }
 .avocado_recipi3_material {
-    background-color: #d2fee9;
-    float: left;
     margin-right: 10px;
-    width: 329px;
-}
-.avocado_recipi2_material {
-    background-color: #d2fee9;
-    float: left;
-    margin-left: 10px;
-    width: 329px;
 }
 .avocado_material_box3 {
     margin: 0 0 122px 19px;
-}
-.avocado_material_box3 tr > th,
-.avocado_material_box3 tr > td {
-    color: #008743;
 }
 .avocado_material_box3 tr > th {
     padding-right: 29px;
 }
 .avocado_recipi3_top img {
     float: left;
-}
-.avocado_recipi3_bottom {
-    background-color: #d2fee9;
-    height: 238px;
-    width: 668px;
 }
 /*
  *03.footer
@@ -518,7 +481,11 @@ th,td {
 .fb a {
     background-color: #4967ab;
     display: block;
+    opacity: 1;
     text-align: center;
+}
+.fb a:hover {
+    opacity: 0.7;
 }
 .fb a > img {
     padding: 15px 0 12px;
@@ -526,7 +493,11 @@ th,td {
 .tw a {
     background-color: #55acef;
     display: block;
+    opacity: 1;
     text-align: center;
+}
+.tw a:hover {
+    opacity: 0.7;
 }
 .tw a > img {
     padding: 15px 0 12px;
@@ -534,7 +505,11 @@ th,td {
 .yt a {
     background-color: #e22e26;
     display: block;
+    opacity: 1;
     text-align: center;
+}
+.yt a:hover {
+    opacity: 0.7;
 }
 .yt a > img {
     padding: 15px 0 12px;
@@ -542,7 +517,11 @@ th,td {
 .dfc a {
     background-color: #ffa117;
     display: block;
+    opacity: 1;
     text-align: center;
+}
+.dfc a:hover {
+    opacity: 0.7;
 }
 .dfc a > img {
     padding: 15px 0 12px;
@@ -608,4 +587,7 @@ th,td {
     position: fixed;
     right: 70px;
     z-index: 0;
+}
+.top_btn a {
+    display: block;
 }
