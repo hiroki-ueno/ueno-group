@@ -37,7 +37,7 @@ th,td {
  *01.header
 */
 .header {
-    margin: 20px auto 0;
+    margin: 20px auto 25px;
     width: 1190px;
 }
 .logo {
@@ -91,18 +91,22 @@ th,td {
  *02.main_wrap
 */
 .main_wrap {
-    margin: 25px auto 0;
+    margin: 0 auto;
     width: 900px;
 }
 /*
  *02_01.main_wrap_top
 */
 .main_wrap_top {
+    margin-bottom: 179px;
     width: 900px;
 }
 .key_visual {
     margin: 0 auto;
     width: 520px;
+}
+.recipe_nav {
+    margin-bottom: 19px;
 }
 .dgfruit_nav {
     float: left;
@@ -119,7 +123,6 @@ th,td {
 .what_salad {
     background-image: url(../image/what_salad_fruit.jpg);
     background-repeat: no-repeat;
-    margin-top: 19px;
 }
 .what_salad p {
     color: #808080;
@@ -135,7 +138,7 @@ th,td {
  *02_02.main_contents
 */
 .main_contents {
-    margin: 180px auto 0;
+    margin: 0 auto;
     width: 900px;
 }
 /*
@@ -146,20 +149,21 @@ th,td {
     background-repeat: repeat-y;
     border-top: 10px solid #da5284;
     border-bottom: 10px solid #da5284;
-    margin: 0 auto;
+    margin: 0 auto 180px;
     padding-bottom: 40px;
-    position: relative;
+/*    position: relative;*/
     width: 802px;
-}
-.dgfruit {
-    left: -38px;
-    position: absolute;
-    top: -171px;
 }
 .dgfruit_recipi_title {
     border-bottom: 2px solid #da5284;
-    margin: 0 auto ;
+    margin: 0 auto 20px;
+    position: relative;
     width: 668px;
+}
+.dgfruit {
+    left: -105px;
+    position: absolute;
+    top: -171px;
 }
 .recipi_name {
     float: right;
@@ -167,7 +171,7 @@ th,td {
 }
 .dgfruit_recipi1 {
     border-bottom: 2px solid #da5284;
-    margin: 20px auto 0;
+    margin: 0 auto 20px;
     padding-bottom: 30px;
     width: 668px;
 }
@@ -178,11 +182,13 @@ th,td {
     text-align: center;
 }
 .dgfruit_recipi1_top {
+    margin-bottom: 10px;
     width: 668px;
 }
 .dgfruit_recipi1_material {
     background-color: #ffd9e7;
     float: left;
+    margin-right: 10px;
     width: 329px;
 }
 .material_top_text_dg {
@@ -210,11 +216,9 @@ th,td {
 }
 .dgfruit_recipi1_top img {
     float: left;
-    margin-left: 10px;
 }
 .dgfruit_recipi1_bottom {
     background-color: #ffd9e7;
-    margin-top: 10px;
     width: 668px;
 }
 .method_box_dg {
@@ -240,7 +244,7 @@ th,td {
 }
 .dgfruit_recipi2 {
     border-bottom: 2px solid #da5284;
-    margin: 20px auto 0;
+    margin: 0 auto 20px;
     padding-bottom: 30px;
     width: 668px;
 }
@@ -252,12 +256,12 @@ th,td {
     text-align: center;
 }
 .dgfruit_recipi2_top {
+    margin-bottom: 10px;
     width: 668px;
 }
 .dgfruit_recipi2_material {
     background-color: #ffd9e7;
     float: left;
-    margin-left: 10px;
     width: 329px;
 }
 .dgfruit_material_box2 {
@@ -272,14 +276,14 @@ th,td {
 }
 .dgfruit_recipi2_top img {
     float: left;
+    margin-right: 10px;
 }
 .dgfruit_recipi2_bottom {
-    background-color: #ffd9e7;
-    margin-top: 10px; 
+    background-color: #ffd9e7; 
     width: 668px;
 }
 .dgfruit_recipi3 {
-    margin: 20px auto 0;
+    margin: 0 auto;
     width: 668px;
 }
 .dgfruit_recipi3 h1 {
@@ -290,11 +294,13 @@ th,td {
     text-align: center;
 }
 .dgfruit_recipi3_top {
+    margin-bottom: 10px;
     width: 668px;
 }
 .dgfruit_recipi3_material {
     background-color: #ffd9e7;
     float: left;
+    margin-right: 10px;
     width: 329px;
 }
 .dgfruit_material_box3 {
@@ -309,11 +315,9 @@ th,td {
 }
 .dgfruit_recipi3_top img {
     float: left;
-    margin-left: 10px;
 }
 .dgfruit_recipi3_bottom {
     background-color: #ffd9e7;
-    margin-top: 10px; 
     width: 668px;
 }
 /*
@@ -324,20 +328,20 @@ th,td {
     background-repeat: repeat-y;
     border-top: 10px solid #008743;
     border-bottom: 10px solid #008743;
-    margin: 180px auto 0;
+    margin: 0 auto 230px;
     padding-bottom: 40px;
-    position: relative;
     width: 802px;
-}
-.avocado {
-    left: -50px;
-    position: absolute;
-    top: -112px;
 }
 .avocado_recipi_title {
     border-bottom: 2px solid #008743;
     margin: 0 auto ;
+    position: relative;
     width: 668px;
+}
+.avocado {
+    left: -117px;
+    position: absolute;
+    top: -111px;
 }
 .recipi_name {
     float: right;
@@ -356,11 +360,13 @@ th,td {
     text-align: center;
 }
 .avocado_recipi1_top {
+    margin-bottom: 10px;
     width: 668px;
 }
 .avocado_recipi1_material {
     background-color: #d2fee9;
     float: left;
+    margin-right: 10px;
     width: 329px;
 }
 .material_top_text_ac {
@@ -388,11 +394,9 @@ th,td {
 }
 .avocado_recipi1_top img {
     float: left;
-    margin-left: 10px;
 }
 .avocado_recipi1_bottom {
-    background-color: #d2fee9;
-    margin-top: 10px; 
+    background-color: #d2fee9; 
     width: 668px;
 }
 .method_box_ac {
@@ -430,12 +434,12 @@ th,td {
     text-align: center;
 }
 .avocado_recipi2_top {
+    margin-bottom: 10px;
     width: 668px;
 }
 .avocado_recipi2_material {
     background-color: #d2fee9;
     float: left;
-    margin-left: 10px;
     width: 329px;
 }
 .avocado_material_box2 {
@@ -453,7 +457,6 @@ th,td {
 }
 .avocado_recipi2_bottom {
     background-color: #d2fee9;
-    margin-top: 10px; 
     width: 668px;
 }
 .avocado_recipi3 {
@@ -468,11 +471,13 @@ th,td {
     text-align: center;
 }
 .avocado_recipi3_top {
+    margin-bottom: 10px;
     width: 668px;
 }
 .avocado_recipi3_material {
     background-color: #d2fee9;
     float: left;
+    margin-right: 10px;
     width: 329px;
 }
 .avocado_recipi2_material {
@@ -493,12 +498,10 @@ th,td {
 }
 .avocado_recipi3_top img {
     float: left;
-    margin-left: 10px;
 }
 .avocado_recipi3_bottom {
     background-color: #d2fee9;
     height: 238px;
-    margin-top: 10px; 
     width: 668px;
 }
 /*
@@ -506,7 +509,6 @@ th,td {
 */
 .footer_wrap {
     bottom: 0;
-    margin-top: 230px;
     width: 100%;
 }
 .footer_link_box ul > li {
