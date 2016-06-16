@@ -32,7 +32,9 @@ a {
     width: 960px;
 }
 .logo {
+    height: 62px;
     margin: 10px 0 0 20px;
+    width: 114px;
 }
 .groval_nav {
     float: right;
@@ -94,6 +96,10 @@ a {
     margin: 0 auto 16px;
     width: 960px;
 }
+.top_image img {
+    height: 177px;
+    width: 960px;
+}
 /*
  *  03.main
 */
@@ -107,8 +113,20 @@ a {
 .item_red {
     margin-right: 14px;
 }
+.item_red img {
+    height: 626px;
+    width: 310px;
+}
 .item_yellow {
     margin-right: 16px;
+}
+.item_yellow img {
+    height: 626px;
+    width: 310px;
+}
+.item_green img {
+    height: 626px;
+    width: 310px;
 }
 /*
  *  04.online_shop_btn
@@ -160,6 +178,10 @@ a {
     margin: -38px 305px 0 0;
     width: 101px;
 }
+.top_btn img {
+    height: 33px;
+    width: 101px;
+}
 .footer_nav {
     width: 960px;
     margin:27px auto 70px;
@@ -204,6 +226,8 @@ a {
 }
 .footer_icon {
     float: left;
+}
+.footer_icon img {
     height: 68px;
     width: 69px;
 }
