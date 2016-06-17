@@ -45,7 +45,7 @@ a {
 }
 .groval_nav li {
     float: left;
-    font-family: 'Hiragino Kaku Gothic W3' 'Hiragino Maru Gothic Pro';
+    font-family: 'Hiragino Kaku Gothic Pro' 'Hiragino Maru Gothic Pro';
     font-weight: bold;
     padding-right: 15px;
 }
@@ -61,7 +61,7 @@ a {
 }
 .sns_link {
     float: left;
-    margin: 17px 18px 0 2px;
+    margin: 17px 13px 0 2px;
 }
 .sns_link a {
     display: block;
@@ -75,7 +75,8 @@ a {
 .sns_link p > a {
     color: #3e3e3e;
     display: block;
-    font-family: 'Hiragino Kaku Gothic W3';
+    font-family: "ヒラギノ角ゴ Pro W3",'Hiragino Kaku Gothic Pro';
+    font-weight: bold;
 }
 .sns_link p > a:hover {
     text-decoration: underline;
@@ -88,7 +89,7 @@ a {
     display: block;
 }
 .net_shop a > img {
-    margin: -2px 0 0 16px;
+    margin: -2px 0 0 15px;
 }
 .net_shop p {
     margin-top: 2px;
@@ -96,6 +97,8 @@ a {
 .net_shop p > a {
     color: #3e3e3e;
     display: block;
+    font-family: "ヒラギノ角ゴ Pro W3",'Hiragino Kaku Gothic Pro';
+    font-weight: bold;
 }
 .net_shop p > a:hover {
     text-decoration: underline;
@@ -123,6 +126,41 @@ a {
 }
 .display_block {
     display: block;
+}
+.display_block img {
+    opacity: 1;
+}
+.bgimg1 {
+    background-image: url(../image/top_dragonfruit_image_01_on.jpg);
+    background-repeat: no-repeat;
+}
+.bgimg2 {
+    background-image: url(../image/top_dragonfruit_image_02_on.jpg);
+    background-repeat: no-repeat;
+}
+.bgimg3 {
+    background-image: url(../image/top_dragonfruit_image_03_on.jpg);
+    background-repeat: no-repeat;
+}
+.bgimg4 {
+    background-image: url(../image/top_dragonfruit_image_04_on.jpg);
+    background-repeat: no-repeat;
+}
+.bgimg5 {
+    background-image: url(../image/top_avocado_image_01_on.jpg);
+    background-repeat: no-repeat;
+}
+.bgimg6 {
+    background-image: url(../image/top_avocado_image_02_on.jpg);
+    background-repeat: no-repeat;
+}
+.bgimg7 {
+    background-image: url(../image/top_avocado_image_03_on.jpg);
+    background-repeat: no-repeat;
+}
+.bgimg8 {
+    background-image: url(../image/top_avocado_image_04_on.jpg);
+    background-repeat: no-repeat;
 }
 .dgfruit_nav {
     float: left;
@@ -490,9 +528,6 @@ a {
     opacity: 1;
     text-align: center;
 }
-.fb a:hover {
-    opacity: 0.7;
-}
 .fb a > img {
     padding: 15px 0 12px;
 }
@@ -501,9 +536,6 @@ a {
     display: block;
     opacity: 1;
     text-align: center;
-}
-.tw a:hover {
-    opacity: 0.7;
 }
 .tw a > img {
     padding: 15px 0 12px;
@@ -514,9 +546,6 @@ a {
     opacity: 1;
     text-align: center;
 }
-.yt a:hover {
-    opacity: 0.7;
-}
 .yt a > img {
     padding: 15px 0 12px;
 }
@@ -525,9 +554,6 @@ a {
     display: block;
     opacity: 1;
     text-align: center;
-}
-.dfc a:hover {
-    opacity: 0.7;
 }
 .dfc a > img {
     padding: 15px 0 12px;
