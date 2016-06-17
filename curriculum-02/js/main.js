@@ -1,8 +1,8 @@
 $(function(){
 //
 //01.main_wrap_top:hover
-//02.footer_link_box:hover
-//
+//02.sns_link:click
+//03.footer_link_box:hover
 //
 //01.main_wrap_top:hover
 //
@@ -21,7 +21,23 @@ $('.avocado_nav ul > li').hover(
         $(this).find('a > img').stop(true).animate({opacity:1},200);
     });
 //
-//02.footer_link_box:hover
+//02.sns_link:click
+//
+$('.sns_link').click(
+    function(){
+        var $inner = $('.sns_link_inner');
+        $inner.each(
+            function(){
+                $inner.toggleClass('show');
+                if($inner.hasClass('show')){
+                    $inner.stop(true).fadeIn(200);
+                }else{
+                    $inner.stop(true).fadeOut(200);
+                }
+            })
+    });
+//
+//03.footer_link_box:hover
 //
 $('.fb').hover(
     function(){

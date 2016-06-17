@@ -32,6 +32,7 @@ a {
 */
 .header {
     margin: 20px auto 25px;
+    position: relative;
     width: 1190px;
 }
 .logo {
@@ -41,7 +42,7 @@ a {
 }
 .groval_nav {
     float: left;
-    padding: 41px 0 0 19px;
+    padding: 42px 0 0 19px;
 }
 .groval_nav li {
     float: left;
@@ -57,11 +58,11 @@ a {
     text-decoration: underline;
 }
 .header_serch {
-    margin: -6px 0 0 12px;
+    margin: -7px 0 0 12px;
 }
 .sns_link {
     float: left;
-    margin: 17px 13px 0 2px;
+    margin: 18px 13px 0 2px;
 }
 .sns_link a {
     display: block;
@@ -81,9 +82,92 @@ a {
 .sns_link p > a:hover {
     text-decoration: underline;
 }
+.sns_link_inner {
+    background-color: #ffc2b2;
+    display: none;
+    height: 430px;
+    position: absolute;
+    left:-45px;
+    top: 100px;
+    width: 1281px;
+}
+.sns_link_inner1 {
+    margin: 40px auto 0;
+    width: 1051px;
+}
+.sns_link_inner1 dl > dt {
+    font-size: 14px;
+    padding-top: 10px;
+    text-align: center;
+}
+.sns_link_inner1 dl > dt > a {
+    color: #3e3e3e;
+    font-family: "ヒラギノ角ゴ Pro W3",'Hiragino Kaku Gothic Pro';
+    font-weight: bold;
+}
+.dfc_dl {
+    float: left;
+    margin-right: 30px;;
+}
+.dfc_dl dd > a {
+    background-color: #ffa117;
+    display: block;
+    opacity: 1;
+    padding: 26px 0 24px;
+    text-align: center;
+}
+.dfc_dl dd{
+    border: 1px solid #fff;
+    width: 314px;
+}
+.fb_dl {
+    float: left;
+    margin: 0 30px 25px 0;
+}
+.fb_dl dd > a {
+    background-color: #4967ab;
+    display: block;
+    opacity: 1;
+    padding: 26px 0 24px;
+    text-align: center;
+}
+.fb_dl dd{
+    border: 1px solid #fff;
+    width: 314px;
+}
+.tw_dl {
+    float: left;
+    margin-bottom: 25px;
+}
+.tw_dl dd > a {
+    background-color: #55acef;
+    display: block;
+    opacity: 1;
+    padding: 26px 0 24px;
+    text-align: center;
+}
+.tw_dl dd{
+    border: 1px solid #fff;
+    width: 314px;
+}
+.yt_dl {
+    float: left;
+    margin-top: 24px;
+}
+.yt_dl dd > a {
+    background-color: #e22e26;
+    display: block;
+    opacity: 1;
+    padding: 26px 0 24px;
+    text-align: center;
+}
+.yt_dl dd {
+    border: 1px solid #fff;
+    width: 314px;
+}
 .net_shop {
     float: left;
-    margin-top: 13px;
+    margin-top: 14px;
 }
 .net_shop a {
     display: block;
@@ -118,7 +202,7 @@ a {
     width: 900px;
 }
 .key_visual {
-    margin: 0 auto;
+    margin: 0 auto -1px;
     width: 520px;
 }
 .recipe_nav {
