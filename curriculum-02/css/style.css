@@ -3,10 +3,6 @@
  *00.clearfix
  *01.header
  *02.main_wrap
- *02_01.main_wrap_top
- *02_02.main_contents
- *02_02_01.dgfruit_recipe
- *02_02_02.avocado_recipe
  *03.footer
  *04.top_btn
 */
@@ -194,9 +190,6 @@ a {
     margin: 0 auto;
     width: 900px;
 }
-/*
- *02_01.main_wrap_top
-*/
 .main_wrap_top {
     margin-bottom: 179px;
     width: 900px;
@@ -272,9 +265,6 @@ a {
 .what_salad_text2 {
     padding: 12px 0 38px;
 }
-/*
- *02_02.main_contents
-*/
 .main_contents {
     margin: 0 auto;
     width: 900px;
@@ -333,9 +323,6 @@ a {
     background-color: #d2fee9; 
     width: 668px;
 }
-/*
- *02_02_01.dgfruit_recipe
-*/
 .dgfruit_recipi {
     background-image: url(../image/recipe_dragonfruit_bg_body.jpg);
     background-repeat: repeat-y;
@@ -463,9 +450,6 @@ a {
 .dgfruit_recipi3_top img {
     float: left;
 }
-/*
- *02_02_02.avocado_recipe
-*/
 .avocado_recipi {
     background-image: url(../image/recipe_avocado_bg_body.jpg);
     background-repeat: repeat-y;
