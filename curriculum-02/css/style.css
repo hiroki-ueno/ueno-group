@@ -27,9 +27,13 @@ a {
  *01.header
 */
 .header {
-    margin: 20px auto 25px;
+    margin: 20px 0 25px;
     position: relative;
-    width: 1190px;
+    width: 100%;
+}
+.header_inner {
+    margin: 0 auto;
+    width: 1192px;
 }
 .logo {
     display: block;
@@ -250,9 +254,6 @@ a {
     margin: 0 auto;
     width: 900px;
 }
-/*///////////////////////////
- *repeat_style_container
-///////////////////////////*/
 .dgts th,.dgts td {
     color: #f28eb2;
     font-size: 12px;
