@@ -86,8 +86,8 @@ a {
     background-color: #ffc2b2;
     display: none;
     height: 430px;
+    left: 79px;
     position: absolute;
-    left:-45px;
     top: 100px;
     width: 1281px;
 }
@@ -104,6 +104,9 @@ a {
     color: #3e3e3e;
     font-family: "ヒラギノ角ゴ Pro W3",'Hiragino Kaku Gothic Pro';
     font-weight: bold;
+}
+.sns_link_nav dl > dt > a:hover {
+    text-decoration: underline;
 }
 .dfc_box {
     float: left;
@@ -239,15 +242,16 @@ a {
 .what_salad {
     background-image: url(../image/what_salad_fruit.jpg);
     background-repeat: no-repeat;
+    height: 167px;
 }
 .what_salad p {
     color: #808080;
     text-align: center;
 }
-.what_salad_text1 {
+.what_salad_text_top {
     padding-top: 87px;
 }
-.what_salad_text2 {
+.what_salad_text_bottom {
     padding: 12px 0 38px;
 }
 .main_contents {
@@ -336,6 +340,7 @@ a {
 .dgfruit_recipi_article h1 {
     color: #da5284;
     font-size: 20px;
+    height: 20px;
     letter-spacing: 2px;
     padding: 20px 0 22px;
     text-align: center;
@@ -419,6 +424,7 @@ a {
 .avocado_recipi_article h1 {
     color: #008743;
     font-size: 20px;
+    height: 20px;
     letter-spacing: 2px;
     padding: 20px 0 22px;
     text-align: center;
