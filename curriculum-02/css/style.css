@@ -87,16 +87,16 @@ a {
     top: 100px;
     width: 1281px;
 }
-.sns_link_inner1 {
+.sns_link_nav {
     margin: 40px auto 0;
     width: 1051px;
 }
-.sns_link_inner1 dl > dt {
+.sns_link_nav dl > dt {
     font-size: 14px;
     padding-top: 10px;
     text-align: center;
 }
-.sns_link_inner1 dl > dt > a {
+.sns_link_nav dl > dt > a {
     color: #3e3e3e;
     font-family: "ヒラギノ角ゴ Pro W3",'Hiragino Kaku Gothic Pro';
     font-weight: bold;
@@ -314,8 +314,7 @@ a {
     width: 802px;
 }
 .dgfruit_recipi_title {
-    border-bottom: 2px solid #da5284;
-    margin: 0 auto 20px;
+    margin: 0 auto -10px;
     position: relative;
     width: 668px;
 }
@@ -326,27 +325,29 @@ a {
 }
 .recipi_name {
     float: right;
-    padding: 56px 0 55px;
+    padding: 56px 0 35px;
 }
-.dgfruit_recipi1 {
-    border-bottom: 2px solid #da5284;
-    margin: 0 auto 20px;
-    padding-bottom: 30px;
+.dgfruit_recipi_article {
+    border-top: 2px solid #da5284;
+    margin: 30px auto 0;
     width: 668px;
 }
-.dgfruit_recipi1 h1 {
+.dgfruit_recipi_article h1 {
     color: #da5284;
     font-size: 20px;
     letter-spacing: 2px;
-    padding-bottom: 22px;
+    padding: 20px 0 22px;
     text-align: center;
 }
-.dgfruit_recipi1_top {
+.dgfruit_recipi_article_top {
     margin-bottom: 10px;
     width: 668px;
 }
-.dgfruit_recipi1_material {
+.dgfruit_recipi_material {
     margin-right: 10px;
+}
+.dgfruit_recipi_article_top img {
+    float: left;
 }
 .material_top_text_dg {
     margin: 20px 0 13px 20px;
@@ -357,9 +358,6 @@ a {
 }
 .dgfruit_material_box1 tr > th {
     padding-right: 31px;
-}
-.dgfruit_recipi1_top img {
-    float: left;
 }
 .method_box_dg {
     margin: 0 auto;
@@ -377,49 +375,14 @@ a {
     color: #f28eb2;
     padding-top: 17px;
 }
-.dgfruit_recipi2 {
-    border-bottom: 2px solid #da5284;
-    margin: 0 auto 20px;
-    padding-bottom: 30px;
-    width: 668px;
-}
-.dgfruit_recipi2 h1 {
-    color: #da5284;
-    font-size: 20px;
-    letter-spacing: 2px;
-    padding-bottom: 22px;
-    text-align: center;
-}
-.dgfruit_recipi2_top {
-    margin-bottom: 10px;
-    width: 668px;
-}
 .dgfruit_material_box2 {
     margin: 0 0 29px 19px;
 }
 .dgfruit_material_box2 tr > th {
     padding-right: 10px;
 }
-.dgfruit_recipi2_top img {
+.image_2nd {
     float: left;
-    margin-right: 10px;
-}
-.dgfruit_recipi3 {
-    margin: 0 auto;
-    width: 668px;
-}
-.dgfruit_recipi3 h1 {
-    color: #da5284;
-    font-size: 20px;
-    letter-spacing: 1.6px;
-    padding-bottom: 22px;
-    text-align: center;
-}
-.dgfruit_recipi3_top {
-    margin-bottom: 10px;
-    width: 668px;
-}
-.dgfruit_recipi3_material {
     margin-right: 10px;
 }
 .dgfruit_material_box3 {
@@ -427,9 +390,6 @@ a {
 }
 .dgfruit_material_box3 tr > th {
     padding-right: 29px;
-}
-.dgfruit_recipi3_top img {
-    float: left;
 }
 .avocado_recipi {
     background-image: url(../image/recipe_avocado_bg_body.jpg);
@@ -441,8 +401,7 @@ a {
     width: 802px;
 }
 .avocado_recipi_title {
-    border-bottom: 2px solid #008743;
-    margin: 0 auto ;
+    margin: 0 auto -10px;
     position: relative;
     width: 668px;
 }
@@ -451,28 +410,23 @@ a {
     position: absolute;
     top: -111px;
 }
-.recipi_name {
-    float: right;
-    padding: 56px 0 55px;
-}
-.avocado_recipi1 {
-    border-bottom: 2px solid #008743;
-    margin: 20px auto 0;
-    padding-bottom: 30px;
+.avocado_recipi_article {
+    border-top: 2px solid #008743;
+    margin: 30px auto 0;
     width: 668px;
 }
-.avocado_recipi1 h1 {
+.avocado_recipi_article h1 {
     color: #008743;
     font-size: 20px;
-    letter-spacing: 1.5px;
-    padding-bottom: 22px;
+    letter-spacing: 2px;
+    padding: 20px 0 22px;
     text-align: center;
 }
-.avocado_recipi1_top {
+.avocado_recipi_article_top {
     margin-bottom: 10px;
     width: 668px;
 }
-.avocado_recipi1_material {
+.avocado_recipi_material {
     margin-right: 10px;
 }
 .material_top_text_ac {
@@ -485,7 +439,7 @@ a {
 .avocado_material_box1 tr > th {
     padding-right: 29px;
 }
-.avocado_recipi1_top img {
+.avocado_recipi_article_top img {
     float: left;
 }
 .method_box_ac {
@@ -503,64 +457,22 @@ a {
     color: #008743;
     padding-top: 17px;
 }
-.avocado_recipi2 {
-    border-bottom: 2px solid #008743;
-    margin: 20px auto 0;
-    padding-bottom: 30px;
-    width: 668px;
-}
-.avocado_recipi2 h1 {
-    color: #008743;
-    font-size: 20px;
-    letter-spacing: 2px;
-    padding-bottom: 22px;
-    text-align: center;
-}
-.avocado_recipi2_top {
-    margin-bottom: 10px;
-    width: 668px;
-}
 .avocado_material_box2 {
     margin: 0 0 83px 19px;
 }
 .avocado_material_box2 tr > th {
     padding-right: 29px;
 }
-.avocado_recipi2_top img {
-    float: left;
-    margin-right: 10px;
-}
 .method_box_ac2 {
     margin: 0 auto;
     padding: 20px 0 25px;
     width: 628px;
-}
-.avocado_recipi3 {
-    margin: 20px auto 0;
-    width: 668px;
-}
-.avocado_recipi3 h1 {
-    color: #008743;
-    font-size: 20px;
-    letter-spacing: 2px;
-    padding-bottom: 22px;
-    text-align: center;
-}
-.avocado_recipi3_top {
-    margin-bottom: 10px;
-    width: 668px;
-}
-.avocado_recipi3_material {
-    margin-right: 10px;
 }
 .avocado_material_box3 {
     margin: 0 0 122px 19px;
 }
 .avocado_material_box3 tr > th {
     padding-right: 29px;
-}
-.avocado_recipi3_top img {
-    float: left;
 }
 /*
  *03.footer
@@ -579,17 +491,11 @@ a {
     opacity: 1;
     text-align: center;
 }
-.fb a > img {
-    padding: 15px 0 12px;
-}
 .tw a {
     background-color: #55acef;
     display: block;
     opacity: 1;
     text-align: center;
-}
-.tw a > img {
-    padding: 15px 0 12px;
 }
 .yt a {
     background-color: #e22e26;
@@ -597,16 +503,13 @@ a {
     opacity: 1;
     text-align: center;
 }
-.yt a > img {
-    padding: 15px 0 12px;
-}
 .dfc a {
     background-color: #ffa117;
     display: block;
     opacity: 1;
     text-align: center;
 }
-.dfc a > img {
+.footer_link_box ul > li > a > img {
     padding: 15px 0 12px;
 }
 .footer_nav_wrap {
@@ -632,27 +535,19 @@ a {
     position: absolute;
     width: 100%;
 }
-.footer_nav {
+.footer_nav_article {
     float: left;
     padding: 18px 0 20px 44px;
 }
-.footer_nav li {
+.footer_nav_article li {
     float: left;
     font-size: 14px;
     margin-left: 16px;
 }
-.footer_nav li > a {
+.footer_nav_article li > a {
     color: #404141;
 }
-.footer_nav1 {
-    border-right: 1px solid #404141;
-    padding-right: 14px;
-}
-.footer_nav2 {
-    border-right: 1px solid #404141;
-    padding-right: 14px;
-}
-.footer_nav3 {
+.footer_nav {
     border-right: 1px solid #404141;
     padding-right: 14px;
 }
