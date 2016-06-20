@@ -105,63 +105,63 @@ a {
     font-family: "ヒラギノ角ゴ Pro W3",'Hiragino Kaku Gothic Pro';
     font-weight: bold;
 }
-.dfc_dl {
+.dfc_box {
     float: left;
     margin-right: 30px;;
 }
-.dfc_dl dd > a {
+.dfc_box dd > a {
     background-color: #ffa117;
     display: block;
     opacity: 1;
     padding: 26px 0 24px;
     text-align: center;
 }
-.dfc_dl dd{
+.dfc_box dd{
     border: 1px solid #fff;
     width: 314px;
 }
-.fb_dl {
+.fb_box {
     float: left;
     margin: 0 30px 25px 0;
 }
-.fb_dl dd > a {
+.fb_box dd > a {
     background-color: #4967ab;
     display: block;
     opacity: 1;
     padding: 26px 0 24px;
     text-align: center;
 }
-.fb_dl dd{
+.fb_box dd{
     border: 1px solid #fff;
     width: 314px;
 }
-.tw_dl {
+.tw_box {
     float: left;
     margin-bottom: 25px;
 }
-.tw_dl dd > a {
+.tw_box dd > a {
     background-color: #55acef;
     display: block;
     opacity: 1;
     padding: 26px 0 24px;
     text-align: center;
 }
-.tw_dl dd{
+.tw_box dd{
     border: 1px solid #fff;
     width: 314px;
 }
-.yt_dl {
+.yt_box {
     float: left;
     margin-top: 24px;
 }
-.yt_dl dd > a {
+.yt_box dd > a {
     background-color: #e22e26;
     display: block;
     opacity: 1;
     padding: 26px 0 24px;
     text-align: center;
 }
-.yt_dl dd {
+.yt_box dd {
     border: 1px solid #fff;
     width: 314px;
 }
