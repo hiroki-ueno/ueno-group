@@ -50,7 +50,7 @@ a {
 }
 .help_nav li > a {
     color: #1d8ad7;
-    font-family: 'Hiragino Kaku Gothic W3';
+    font-family: 'Hiragino Kaku Gothic Pro';
     font-size: 10px;
     letter-spacing: 1px;
 }
@@ -67,7 +67,7 @@ a {
 .site_nav li > a {
     color: #3e3e3e;
     display: block;
-    font-family: 'Hiragino Maru Gothic Pro';
+    font-family: 'Hiragino Kaku Gothic Pro';
     font-size: 13px;
     letter-spacing: 1px;
 }
@@ -169,7 +169,6 @@ a {
 */
 .footer {
     background-image: url(../image/footer_bg_img.jpg);
-    background-repeat: repeat-x;
     margin-top: 224px;
     width: 100%;
 }
