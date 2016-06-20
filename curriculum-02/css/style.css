@@ -56,26 +56,26 @@ a {
 .header_serch {
     margin: -7px 0 0 12px;
 }
-.sns_link {
+.right_container{
     float: left;
     margin: 18px 13px 0 2px;
 }
-.sns_link a {
+.right_container a {
     display: block;
 }
-.sns_link a > img {
-    margin: -2px 0 0 17px;
-}
-.sns_link p {
+.right_container p {
     margin-top: 2px;
 }
-.sns_link p > a {
+.right_container p > a {
     color: #3e3e3e;
     display: block;
     font-family: "ヒラギノ角ゴ Pro W3",'Hiragino Kaku Gothic Pro';
     font-weight: bold;
 }
-.sns_link p > a:hover {
+.sns_link a > img {
+    margin: -2px 0 0 17px;
+}
+.right_container p > a:hover {
     text-decoration: underline;
 }
 .sns_link_inner {
@@ -161,27 +161,8 @@ a {
     border: 1px solid #fff;
     width: 314px;
 }
-.net_shop {
-    float: left;
-    margin-top: 14px;
-}
-.net_shop a {
-    display: block;
-}
 .net_shop a > img {
-    margin: -2px 0 0 15px;
-}
-.net_shop p {
-    margin-top: 2px;
-}
-.net_shop p > a {
-    color: #3e3e3e;
-    display: block;
-    font-family: "ヒラギノ角ゴ Pro W3",'Hiragino Kaku Gothic Pro';
-    font-weight: bold;
-}
-.net_shop p > a:hover {
-    text-decoration: underline;
+    margin: -6px 0 0 14px;
 }
 /*
  *02.main_wrap
@@ -195,7 +176,7 @@ a {
     width: 900px;
 }
 .key_visual {
-    margin: 0 auto -1px;
+    margin: 0 auto -2px;
     width: 520px;
 }
 .recipe_nav {
