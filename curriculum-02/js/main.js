@@ -33,4 +33,9 @@ $('.transparency').hover(
     function(){
         $(this).find('a').stop(true).animate({opacity:1},200);
     });
+$('.flush').on('mouseover',
+    function(){
+        $(this).animate({opacity:0.4},200);
+        $(this).animate({opacity:0},200);
+    });
 });
