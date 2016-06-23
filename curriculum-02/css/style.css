@@ -40,21 +40,21 @@ a {
     float: left;
     padding-left: 5px;
 }
-.groval_nav {
+.grov_nav {
     float: left;
     padding: 42px 0 0 19px;
 }
-.groval_nav li {
+.grov_nav li {
     float: left;
     font-family: 'Hiragino Kaku Gothic Pro' 'Hiragino Maru Gothic Pro';
     font-weight: bold;
     padding-right: 15px;
 }
-.groval_nav li > a {
+.grov_nav li > a {
     color: #3e3e3e;
     display: block;
 }
-.groval_nav li > a:hover {
+.grov_nav li > a:hover {
     text-decoration: underline;
 }
 .header_serch {
@@ -202,40 +202,42 @@ a {
 .display_block {
     display: block;
 }
-.display_block img {
+.opa a > img {
     opacity: 1;
+}
+.changeimage1,
+.changeimage2,
+.changeimage3,
+.changeimage4,
+.changeimage5,
+.changeimage6,
+.changeimage7,
+.changeimage8 {
+    background-repeat: no-repeat;
 }
 .changeimage1 {
     background-image: url(../image/top_dragonfruit_image_01_on.jpg);
-    background-repeat: no-repeat;
 }
 .changeimage2 {
     background-image: url(../image/top_dragonfruit_image_02_on.jpg);
-    background-repeat: no-repeat;
 }
 .changeimage3 {
     background-image: url(../image/top_dragonfruit_image_03_on.jpg);
-    background-repeat: no-repeat;
 }
 .changeimage4 {
     background-image: url(../image/top_dragonfruit_image_04_on.jpg);
-    background-repeat: no-repeat;
 }
 .changeimage5 {
     background-image: url(../image/top_avocado_image_01_on.jpg);
-    background-repeat: no-repeat;
 }
 .changeimage6 {
     background-image: url(../image/top_avocado_image_02_on.jpg);
-    background-repeat: no-repeat;
 }
 .changeimage7 {
     background-image: url(../image/top_avocado_image_03_on.jpg);
-    background-repeat: no-repeat;
 }
 .changeimage8 {
     background-image: url(../image/top_avocado_image_04_on.jpg);
-    background-repeat: no-repeat;
 }
 .dgfruit_nav {
     float: left;
@@ -502,29 +504,25 @@ a {
     float: left;
     width: 25%;
 }
-.fb a {
-    background-color: #4967ab;
+.fb a,
+.tw a,
+.yt a,
+.dfc a {
     display: block;
     opacity: 1;
     text-align: center;
+}
+.fb a {
+    background: #4967ab;
 }
 .tw a {
-    background-color: #55acef;
-    display: block;
-    opacity: 1;
-    text-align: center;
+    background: #55acef;
 }
 .yt a {
-    background-color: #e22e26;
-    display: block;
-    opacity: 1;
-    text-align: center;
+    background: #e22e26;
 }
 .dfc a {
-    background-color: #ffa117;
-    display: block;
-    opacity: 1;
-    text-align: center;
+    background: #ffa117;
 }
 .footer_link_box ul > li > a > img {
     padding: 15px 0 12px;
