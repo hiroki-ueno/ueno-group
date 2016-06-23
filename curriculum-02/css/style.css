@@ -387,20 +387,21 @@ a {
     padding-right: 29px;
 }
 .dgts th,
-.dgts td {
-    color: #f28eb2;
+.dgts td,
+.acts th,
+.acts td {
     font-size: 12px;
     font-weight: normal;
     padding-bottom: 6px;
     text-align: left;
 }
+.dgts th,
+.dgts td {
+    color: #f28eb2;
+}
 .acts th,
 .acts td {
     color: #008743;
-    font-size: 12px;
-    font-weight: normal;
-    padding-bottom: 6px;
-    text-align: left;
 }
 .space_bottom th {
     padding-bottom: 27px;
