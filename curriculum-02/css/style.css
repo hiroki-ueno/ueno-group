@@ -247,60 +247,6 @@ a {
     margin: 0 auto;
     width: 900px;
 }
-.dgts th,
-.dgts td {
-    color: #f28eb2;
-    font-size: 12px;
-    font-weight: normal;
-    padding-bottom: 6px;
-    text-align: left;
-}
-.dgbg,
-.acbg {
-    float: left;
-    width: 329px;
-}
-.dgbg {
-    background: #ffd9e7;
-}
-.acbg {
-    background: #d2fee9;
-}
-.acts th,
-.acts td {
-    color: #008743;
-    font-size: 12px;
-    font-weight: normal;
-    padding-bottom: 6px;
-    text-align: left;
-}
-.space_bottom th {
-    padding-bottom: 27px;
-}
-.dgtoptx,
-.actoptx {
-    border-radius: 30px;
-    color: #fff;
-    font-size: 12px;
-    padding: 4px 0;
-    text-align: center;
-}
-.dgtoptx {
-    background: #f28eb2;
-}
-.actoptx {
-    background: #008743;
-}
-.dgfruit_recipi_bottom,
-.avocado_recipi_bottom {;
-    width: 668px;
-}
-.dgfruit_recipi_bottom {
-    background: #ffd9e7;
-}
-.avocado_recipi_bottom {
-    background: #d2fee9; 
-}
 .dgfruit_recipi,
 .avocado_recipi {
     background-repeat: repeat-y;
@@ -309,6 +255,10 @@ a {
 .dgfruit_recipi {
     background-image: url(../image/recipe_dragonfruit_bg_body.jpg);
     margin: 0 auto 180px;
+}
+.avocado_recipi {
+    background-image: url(../image/recipe_avocado_bg_body.jpg);
+    margin: 0 auto 231px;
 }
 .dgfruit_recipi:before,
 .dgfruit_recipi:after,
@@ -325,10 +275,6 @@ a {
 }
 .dgfruit_recipi:after {
     background-image: url(../image/recipe_dragonfruit_bg_bottom.jpg);
-}
-.avocado_recipi {
-    background-image: url(../image/recipe_avocado_bg_body.jpg);
-    margin: 0 auto 231px;
 }
 .avocado_recipi:before {
     background-image: url(../image/recipe_avocado_bg_top.jpg);
@@ -388,12 +334,41 @@ a {
 .fruit_recipi_article_top img {
     float: left;
 }
+.image_2nd {
+    float: left;
+    margin-right: 10px;
+}
 .fruit_recipi_material {
     margin-right: 10px;
+}
+.dgbg,
+.acbg {
+    float: left;
+    width: 329px;
+}
+.dgbg {
+    background: #ffd9e7;
+}
+.acbg {
+    background: #d2fee9;
 }
 .material_top_text {
     margin: 20px 0 13px 20px;
     width: 92px;
+}
+.dgtoptx,
+.actoptx {
+    border-radius: 30px;
+    color: #fff;
+    font-size: 12px;
+    padding: 4px 0;
+    text-align: center;
+}
+.dgtoptx {
+    background: #f28eb2;
+}
+.actoptx {
+    background: #008743;
 }
 .dgfruit_material_box1,
 .dgfruit_material_box2 {
@@ -410,6 +385,35 @@ a {
 }
 .dgfruit_material_box3 tr > th {
     padding-right: 29px;
+}
+.dgts th,
+.dgts td {
+    color: #f28eb2;
+    font-size: 12px;
+    font-weight: normal;
+    padding-bottom: 6px;
+    text-align: left;
+}
+.acts th,
+.acts td {
+    color: #008743;
+    font-size: 12px;
+    font-weight: normal;
+    padding-bottom: 6px;
+    text-align: left;
+}
+.space_bottom th {
+    padding-bottom: 27px;
+}
+.dgfruit_recipi_bottom,
+.avocado_recipi_bottom {;
+    width: 668px;
+}
+.dgfruit_recipi_bottom {
+    background: #ffd9e7;
+}
+.avocado_recipi_bottom {
+    background: #d2fee9; 
 }
 .method_box_dg,
 .method_box_ac,
@@ -433,24 +437,6 @@ a {
 .method_title_dg {
     padding: 4px 0;
 }
-.cooking_method_dg {
-    font-size: 12px;
-}
-.cooking_method_dg li {
-    color: #f28eb2;
-    padding-top: 17px;
-}
-.cooking_method_ac {
-    font-size: 12px;
-}
-.cooking_method_ac li {
-    color: #008743;
-    padding-top: 17px;
-}
-.image_2nd {
-    float: left;
-    margin-right: 10px;
-}
 .avocado_material_box1 {
     margin: 0 0 119px 19px;
 }
@@ -464,6 +450,22 @@ a {
 .avocado_material_box2 tr > th,
 .avocado_material_box3 tr > th {
     padding-right: 29px;
+}
+.cooking_method_dg {
+    font-size: 12px;
+}
+.cooking_method_ac {
+    font-size: 12px;
+}
+.cooking_method_dg li,
+.cooking_method_ac li {
+    padding-top: 17px;
+}
+.cooking_method_dg li{
+    color: #f28eb2;
+}
+.cooking_method_ac li {
+    color: #008743;
 }
 /*
  *03.footer
