@@ -110,71 +110,54 @@ a {
     padding-top: 10px;
     text-align: center;
 }
-.sns_link_nav dl > dt > a {
+.link_nav_txt a {
     color: #3e3e3e;
     font-family: "ヒラギノ角ゴ Pro W3",'Hiragino Kaku Gothic Pro';
     font-weight: bold;
 }
-.sns_link_nav dl > dt > a:hover {
+.link_nav_txt a:hover {
     text-decoration: underline;
 }
-.dfc_box {
+.dfc_box,
+.fb_box,
+.tw_box,
+.yt_box {
     float: left;
+}
+.dfc_box {
     margin-right: 30px;;
+}
+.fb_box {
+    margin: 0 30px 25px 0;
+}
+.tw_box {
+    margin-bottom: 25px;
+}
+.yt_box {
+    margin-top: 24px;
+}
+.dfc_box dd > a,
+ .fb_box dd > a,
+ .tw_box dd > a,
+ .yt_box dd > a {
+    display: block;
+    opacity: 1;
+    padding: 26px 0 24px;
+    text-align: center;
 }
 .dfc_box dd > a {
     background: #ffa117;
-    display: block;
-    opacity: 1;
-    padding: 26px 0 24px;
-    text-align: center;
-}
-.dfc_box dd {
-    border: 1px solid #fff;
-    width: 314px;
-}
-.fb_box {
-    float: left;
-    margin: 0 30px 25px 0;
 }
 .fb_box dd > a {
     background: #4967ab;
-    display: block;
-    opacity: 1;
-    padding: 26px 0 24px;
-    text-align: center;
-}
-.fb_box dd {
-    border: 1px solid #fff;
-    width: 314px;
-}
-.tw_box {
-    float: left;
-    margin-bottom: 25px;
 }
 .tw_box dd > a {
     background: #55acef;
-    display: block;
-    opacity: 1;
-    padding: 26px 0 24px;
-    text-align: center;
-}
-.tw_box dd {
-    border: 1px solid #fff;
-    width: 314px;
-}
-.yt_box {
-    float: left;
-    margin-top: 24px;
 }
 .yt_box dd > a {
     background: #e22e26;
-    display: block;
-    opacity: 1;
-    padding: 26px 0 24px;
-    text-align: center;
 }
-.yt_box dd {
+.link_box_wrap {
     border: 1px solid #fff;
     width: 314px;
 }
@@ -567,7 +550,7 @@ a {
 .footer_nav_article li > a {
     color: #404141;
 }
-.footer_nav {
+.footer_nav_anchor {
     border-right: 1px solid #404141;
     padding-right: 14px;
 }
