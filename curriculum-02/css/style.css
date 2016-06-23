@@ -85,8 +85,8 @@ a {
 .sns_link_inner {
     background-color: #ffc2b2;
     display: none;
-    height: 430px;
     left: 79px;
+    padding-bottom: 30px;
     position: absolute;
     top: 100px;
     width: 1281px;
@@ -123,7 +123,7 @@ a {
     margin-right: 30px;;
 }
 .dfc_box dd > a {
-    background-color: #ffa117;
+    background: #ffa117;
     display: block;
     opacity: 1;
     padding: 26px 0 24px;
@@ -138,7 +138,7 @@ a {
     margin: 0 30px 25px 0;
 }
 .fb_box dd > a {
-    background-color: #4967ab;
+    background: #4967ab;
     display: block;
     opacity: 1;
     padding: 26px 0 24px;
@@ -153,7 +153,7 @@ a {
     margin-bottom: 25px;
 }
 .tw_box dd > a {
-    background-color: #55acef;
+    background: #55acef;
     display: block;
     opacity: 1;
     padding: 26px 0 24px;
@@ -168,7 +168,7 @@ a {
     margin-top: 24px;
 }
 .yt_box dd > a {
-    background-color: #e22e26;
+    background: #e22e26;
     display: block;
     opacity: 1;
     padding: 26px 0 24px;
@@ -199,7 +199,7 @@ a {
 .recipe_nav {
     margin-bottom: 19px;
 }
-.display_block {
+.dpb {
     display: block;
 }
 .opa a > img {
@@ -278,12 +278,12 @@ a {
     text-align: left;
 }
 .dgbg {
-    background-color: #ffd9e7;
+    background: #ffd9e7;
     float: left;
     width: 329px;
 }
 .acbg {
-    background-color: #d2fee9;
+    background: #d2fee9;
     float: left;
     width: 329px;
 }
@@ -298,7 +298,7 @@ a {
     padding-bottom: 27px;
 }
 .dgtoptx {
-    background-color: #f28eb2;
+    background: #f28eb2;
     border-radius: 30px;
     color: #fff;
     font-size: 12px;
@@ -306,7 +306,7 @@ a {
     text-align: center;
 }
 .actoptx {
-    background-color: #008743;
+    background: #008743;
     border-radius: 30px;
     color: #fff;
     font-size: 12px;
@@ -314,7 +314,7 @@ a {
     text-align: center;
 }
 .dgfruit_recipi_bottom {
-    background-color: #ffd9e7;
+    background: #ffd9e7;
     width: 668px;
 }
 .avocado_recipi_bottom {
@@ -524,7 +524,7 @@ a {
 .dfc a {
     background: #ffa117;
 }
-.footer_link_box ul > li > a > img {
+.link_box_anchor img {
     padding: 15px 0 12px;
 }
 .footer_nav_wrap {
@@ -541,7 +541,7 @@ a {
     top: 36px;
 }
 .flush {
-    background-color: #fff;
+    background: #fff;
     height: 176px;
     opacity: 0;
     position: absolute;
@@ -551,7 +551,7 @@ a {
 }
 .footer_nav_box {
     bottom: 0;
-    background-color: rgba(255,255,255,0.8);
+    background: rgba(255,255,255,0.8);
     position: absolute;
     width: 100%;
 }
