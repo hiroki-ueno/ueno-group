@@ -304,20 +304,37 @@ a {
 .dgfruit_recipi,
 .avocado_recipi {
     background-repeat: repeat-y;
-    padding-bottom: 40px;
     width: 802px;
 }
 .dgfruit_recipi {
     background-image: url(../image/recipe_dragonfruit_bg_body.jpg);
-    border-top: 10px solid #da5284;
-    border-bottom: 10px solid #da5284;
     margin: 0 auto 180px;
+}
+.dgfruit_recipi:before,
+.dgfruit_recipi:after,
+.avocado_recipi:before,
+.avocado_recipi:after {
+    background-repeat: no-repeat;
+    content: "";
+    display: block;
+    height: 20px;
+    width: 802px;
+}
+.dgfruit_recipi:before {
+    background-image: url(../image/recipe_dragonfruit_bg_top.jpg);
+}
+.dgfruit_recipi:after {
+    background-image: url(../image/recipe_dragonfruit_bg_bottom.jpg);
 }
 .avocado_recipi {
     background-image: url(../image/recipe_avocado_bg_body.jpg);
-    border-top: 10px solid #008743;
-    border-bottom: 10px solid #008743;
     margin: 0 auto 231px;
+}
+.avocado_recipi:before {
+    background-image: url(../image/recipe_avocado_bg_top.jpg);
+}
+.avocado_recipi:after {
+    background-image: url(../image/recipe_avocado_bg_bottom.jpg);
 }
 .fruit_recipi_title {
     margin: 0 auto -10px;
@@ -327,20 +344,21 @@ a {
 .dgfruit {
     left: -105px;
     position: absolute;
-    top: -171px;
+    top: -179px;
 }
 .avocado {
     left: -117px;
     position: absolute;
-    top: -111px;
+    top: -120px;
 }
 .recipi_name {
     float: right;
-    padding: 56px 0 35px;
+    padding: 48px 0 65px;
 }
 .dgfruit_recipi_article,
 .avocado_recipi_article {
-    margin: 30px auto 0;
+    margin: 0 auto;
+    padding-bottom: 30px;
     width: 668px;
 }
 .dgfruit_recipi_article {
