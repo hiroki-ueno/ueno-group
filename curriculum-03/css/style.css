@@ -62,6 +62,7 @@ body {
 }
 .key_word {
     color: #4c4c4c;
+    letter-spacing: 3px;
     margin-bottom: 23px;
 }
 .word_section {
@@ -106,7 +107,12 @@ body {
 .language_btn {
     color: #fff;
     display: block;
-    padding: 12px 0;
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding: 10px 0;
+}
+.language_btn span {
+    float: right;
 }
 .indent {
     margin-right: 2%;
