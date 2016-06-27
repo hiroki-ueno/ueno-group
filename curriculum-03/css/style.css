@@ -1,1 +1,147 @@
 @charset "UTF-8";
+/*
+ *00.clearfix
+ *01.header
+ *02.main
+ *03.footer
+*/
+a {
+    text-decoration: none;
+}
+body {
+    font-family: serif;
+}
+/*
+ *00.clearfix
+*/
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+.cf:after {
+    clear: both;
+}
+.cf {
+    zoom: 1;
+}
+/*
+ *01.header
+*/
+.header {
+    border-bottom: 1px solid #2d4260;
+    width: 100%;
+}
+.header h1 {
+   color: #2d4260;
+   font-size: 30px;
+   margin: 0 auto;
+   padding: 30px 0;
+   width: 93%;
+}
+/*
+ *02.main
+*/
+.main {
+    margin-bottom: 50px;
+    width: 100%;
+}
+.main_top {
+    background: #b6d9ec;
+    text-align: center;
+    margin-bottom: 30px;
+    padding-bottom: 25px;
+    width: 100%;
+}
+.key_visual {
+    width: 100%;
+}
+.key_visual img {
+    height: auto;
+    width: 100%;
+}
+.key_word {
+    color: #4c4c4c;
+    margin-bottom: 23px;
+}
+.word_section {
+    margin-bottom: 22px;
+    width: 100%;
+}
+.word_section h2 {
+    color: #4c4c4c;
+    background: #dbecf6;
+    border: 1px solid #535353;
+    border-radius: 3px;
+    margin: 0 auto 12px;
+    padding: 10px 0;
+    width: 93%;
+}
+.word_section p {
+    color: #4c4c4c;
+    font-size: 12px;
+}
+.main_bottom {
+    background: #fff;
+    text-align: center;
+    width: 100%;
+}
+.main_bottom p {
+    color: #0e3a57;
+}
+.main_bottom h1 {
+    color: #0e3a57;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+.select_language {
+    margin: 0 auto 20px;
+    width: 93%;
+}
+.select_language p {
+    background: #2d4261;
+    float: left;
+    width: 49%;
+}
+.language_btn {
+    color: #fff;
+    display: block;
+    padding: 12px 0;
+}
+.indent {
+    margin-right: 2%;
+}
+/*
+ *03.footer
+*/
+.footer {
+    width: 100%;
+}
+.footer_nav {
+    background: #2d4261;
+    width: 100%;
+}
+.footer_nav p {
+    margin: 0 auto;
+    width: 93%;
+}
+.footer_nav p > a {
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    padding: 20px 0;
+}
+.footer_bottom {
+    margin: 18px auto 22px;
+    width: 93%;
+}
+.footer_bottom p {
+    color: #0e3a57;
+    font-size: 11px;
+}
+.company {
+    float: left;
+}
+.copyright {
+    float: right;
+}
