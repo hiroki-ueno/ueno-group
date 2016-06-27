@@ -116,9 +116,11 @@ body {
 */
 .footer {
     width: 100%;
+    margin-bottom: 22px;
 }
 .footer_nav {
     background: #2d4261;
+    margin-bottom: 18px;
     width: 100%;
 }
 .footer_nav p {
@@ -132,7 +134,7 @@ body {
     padding: 20px 0;
 }
 .footer_bottom {
-    margin: 18px auto 22px;
+    margin: 0 auto;
     width: 93%;
 }
 .footer_bottom p {
