@@ -43,7 +43,7 @@ body {
  *02.main
 */
 .main {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     width: 100%;
 }
 .main_top {
@@ -99,7 +99,7 @@ body {
     margin: 0 auto 20px;
     width: 93%;
 }
-.select_language p {
+.btn_frame {
     background: #2d4261;
     float: left;
     width: 49%;
@@ -129,11 +129,11 @@ body {
     margin-bottom: 18px;
     width: 100%;
 }
-.footer_nav p {
+.homepage_link {
     margin: 0 auto;
     width: 93%;
 }
-.footer_nav p > a {
+.homepage_link a {
     color: #fff;
     display: block;
     font-size: 14px;
