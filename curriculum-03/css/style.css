@@ -34,26 +34,27 @@ body {
 }
 .header h1 {
    color: #2d4260;
-   font-size: 30px;
+   font-size: 20px;
    margin: 0 auto;
-   padding: 30px 0;
-   width: 93%;
+   padding: 23px 0 24px;
+   width: 405px;
 }
 /*
  *02.main
 */
 .main {
-    margin-bottom: 40px;
+    margin-bottom: 34px;
     width: 100%;
 }
 .main_top {
     background: #b6d9ec;
     text-align: center;
-    margin-bottom: 30px;
-    padding-bottom: 25px;
+    margin-bottom: 21px;
+    padding-bottom: 18px;
     width: 100%;
 }
 .key_visual {
+    margin-bottom: 10px;
     width: 100%;
 }
 .key_visual img {
@@ -63,20 +64,21 @@ body {
 .key_word {
     color: #4c4c4c;
     letter-spacing: 3px;
-    margin-bottom: 23px;
+    margin-bottom: 17px;
 }
 .word_section {
-    margin-bottom: 22px;
+    margin-bottom: 16px;
     width: 100%;
 }
-.word_section h2 {
+.word_section h3 {
     color: #4c4c4c;
     background: #dbecf6;
     border: 1px solid #535353;
     border-radius: 3px;
-    margin: 0 auto 12px;
-    padding: 10px 0;
-    width: 93%;
+    letter-spacing: 3px;
+    margin: 0 auto 8px;
+    padding: 12px 0 10px;
+    width: 403px;
 }
 .word_section p {
     color: #4c4c4c;
@@ -89,59 +91,63 @@ body {
 }
 .main_bottom p {
     color: #0e3a57;
+    letter-spacing: 2px;
 }
-.main_bottom h1 {
+.main_bottom_heading {
     color: #0e3a57;
     font-size: 25px;
-    margin-bottom: 25px;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
 }
 .select_language {
-    margin: 0 auto 20px;
-    width: 93%;
-}
-.btn_frame {
-    background: #2d4261;
-    float: left;
-    width: 49%;
+    margin: 0 auto 15px;
+    width: 405px;
 }
 .language_btn {
+    background: #2d4261;
     color: #fff;
     display: block;
+    float: left;
     font-size: 20px;
     letter-spacing: 2px;
-    padding: 10px 0;
+    padding: 9px 0;
+    width: 196px;
 }
 .language_btn span {
     float: right;
 }
-.indent {
-    margin-right: 2%;
+.indent_right {
+    margin-right: 13px;
+}
+.indent_bottom {
+    margin-bottom: 20px;
 }
 /*
  *03.footer
 */
 .footer {
+    font-family: sans-serif;
+    margin-bottom: 14px;
     width: 100%;
-    margin-bottom: 22px;
 }
 .footer_nav {
     background: #2d4261;
-    margin-bottom: 18px;
+    margin-bottom: 12px;
     width: 100%;
 }
 .homepage_link {
     margin: 0 auto;
-    width: 93%;
+    width: 405px;
 }
 .homepage_link a {
     color: #fff;
     display: block;
     font-size: 14px;
-    padding: 20px 0;
+    padding: 20px 0 15px;
 }
 .footer_bottom {
     margin: 0 auto;
-    width: 93%;
+    width: 405px;
 }
 .footer_bottom p {
     color: #0e3a57;
