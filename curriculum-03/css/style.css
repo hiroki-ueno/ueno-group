@@ -235,7 +235,7 @@ body {
 .main_bottom_heading_article {
     box-sizing: border-box;
     margin: 0 auto 6px;
-    padding-left: 80px;
+    padding-left: 70px;
     width: 100%;
 }
 .main_bottom_heading {
@@ -263,6 +263,11 @@ body {
     letter-spacing: 2px;
     padding: 14px 0;
     width: 100%;
+}
+.main_bottom_period {
+    color: #0e3a57;
+    font-size: 26px;
+    letter-spacing: 2px;
 }
 /*
  *03.footer
