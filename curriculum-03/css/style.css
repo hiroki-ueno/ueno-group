@@ -56,9 +56,13 @@ body {
     margin-bottom: 7px;
     width: 100%;
 }
-.key_visual img {
+.sp_key_visual,
+.pc_key_visual {
     height: auto;
     width: 100%;
+}
+.pc_key_visual {
+    display: none;
 }
 .key_word {
     color: #4c4c4c;
@@ -180,23 +184,22 @@ body {
  *01.header
 */
 .header {
-    border-bottom: 1px solid #2d4260;
-    box-sizing: border-box;
     padding: 23px 0 19px 230px;
-    width: 100%;
 }
 .header h1 {
-   color: #2d4260;
    font-size: 20px;
-   margin: 0 auto;
 }
 /*
  *02.main
 */
+.sp_key_visual {
+    display: none;
+}
+.pc_key_visual {
+    display: inline-block;
+}
 .key_word {
-    color: #4c4c4c;
     font-size: 28px;
-    letter-spacing: 2px;
     margin-bottom: 24px;
 }
 .word_article {
@@ -204,42 +207,31 @@ body {
     width: 756px;
 }
 .word_section {
-    box-sizing: border-box;
     float: left;
     margin: 0 auto 11px;
     padding: 0 10px;
     width: 50%;
 }
 .word_section h3 {
-    background: #dbecf6;
-    border: 1px solid #535353;
-    border-radius: 3px;
-    box-sizing: border-box;
-    color: #4c4c4c;
     font-size: 26px;
     letter-spacing: 3px;
     padding: 9px 0 8px;
-    width: 100%;
 }
 .word_section p {
-    color: #4c4c4c;
     font-size: 10px;
     padding-top: 6px;
 }
 .main_bottom {
-    background: #fff;
     margin: 0 auto;
     text-align: center;
     width: 756px;
 }
 .main_bottom_heading_article {
-    box-sizing: border-box;
     margin: 0 auto 6px;
-    padding-left: 70px;
+    padding-left: 65px;
     width: 100%;
 }
 .main_bottom_heading {
-    color: #0e3a57;
     float: left;
     font-size: 36px;
     letter-spacing: 3px;
@@ -256,22 +248,18 @@ body {
     width: 50%;
 }
 .select_language li:nth-child(odd) {
-    padding: 0 10px 0 20px;
+    padding: 0 10px 0 50px;
 }
 .select_language li:nth-child(even) {
-    padding: 0 20px 0 10px;
+    padding: 0 50px 0 10px;
 }
 .language_btn {
-    background: #2d4261;
-    color: #fff;
-    display: block;
     font-size: 30px;
     letter-spacing: 2px;
     padding: 14px 0;
     width: 100%;
 }
 .main_bottom_period {
-    color: #0e3a57;
     font-size: 26px;
     letter-spacing: 2px;
 }
